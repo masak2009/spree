@@ -19,7 +19,7 @@ class AppConfiguration < Configuration
   preference :order_bcc, :string
   preference :store_cc, :boolean, :default => false
   preference :store_cvv, :boolean, :default => false
-  preference :default_locale, :string, :default => 'en-US'
+  preference :default_locale, :string, :default => 'cz'
   preference :allow_locale_switching, :boolean, :default => true
   preference :default_country_id, :integer, :default => 214
   preference :allow_backorders, :boolean, :default => true
@@ -44,6 +44,7 @@ class AppConfiguration < Configuration
   preference :auto_capture, :boolean, :default => false # automatically capture the creditcard (as opposed to just authorize and capture later)
   preference :address_requires_state, :boolean, :default => true # should state/state_name be required
   preference :use_mail_queue, :boolean, :default => false #send mail immediately or use a mail queue. 
+
   validates_presence_of :name
   validates_uniqueness_of :name
   
