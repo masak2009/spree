@@ -47,7 +47,7 @@ Spree::Initializer.run do |config|
   # :all can be used as a placeholder for all plugins not explicitly named
   # config.plugins = [ :exception_notification, :ssl_requirement, :all ]
   config.plugins = [ :all, :resource_controller, :extension_patches ] 
-  
+  config.extensions = [:search, :all]
   # Add additional load paths for your own custom dirs
   # config.load_paths += %W( #{RAILS_ROOT}/extras )
 
