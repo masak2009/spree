@@ -1,21 +1,21 @@
 cz:
   ext:
     search:
-      extension_name: Search and Sort
-      extension_description: Support for searching and sorting products.
+      extension_name: Hledání a třídění
+      extension_description: Podpora pro třídění a hledání produktů.
 
-      advanced_product_search: Advanced Product Search
+      advanced_product_search: Rozšířené hledání produktů
       advanced: Advanced
-      any_classification: Any classification
-      asc: Ascending
-      belonging_to: Belonging to
-      desc: Descending
-      include_subtaxons: Include subclassifications in the search
-      keywords: Keywords
-      maximum_price: Maximum price
-      minimum_price: Minimum price
-      search: Search
+      any_classification: Cokoliv
+      asc: Vzestupně
+      belonging_to: Patřící do
+      desc: Sestupně
+      include_subtaxons: Zahrnout do hledání podkategorie
+      keywords: Klíčové slova
+      maximum_price: Maximální cena
+      minimum_price: Minimální cena
+      search: Hledej
       searching_by: Searching for '{{search_term}}'
-      send: Send
+      send: Odeslat
       sort_by: Sort by
-      date: Date
+      date: Datum
