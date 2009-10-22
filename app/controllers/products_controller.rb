@@ -1,6 +1,7 @@
 class ProductsController < Spree::BaseController
   prepend_before_filter :reject_unknown_object, :only => [:show]
   before_filter :load_data, :only => :show
+  before_filter :set_language, :only => :index
 
   resource_controller
   helper :taxons  
@@ -19,6 +20,10 @@ class ProductsController < Spree::BaseController
   end
 
   private
+  def set_language
+    I18n.locale = session[:locale]
+  end
+
   def load_data  
     load_object  
     @selected_variant = @product.variants.detect { |v| v.available? }
