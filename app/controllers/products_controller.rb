@@ -1,7 +1,7 @@
 class ProductsController < Spree::BaseController
   prepend_before_filter :reject_unknown_object, :only => [:show]
   before_filter :load_data, :only => :show
-  before_filter :set_language, :only => :index
+  before_filter :set_language, :only => [:index, :show]
 
   resource_controller
   helper :taxons  
