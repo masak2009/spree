@@ -1,6 +1,6 @@
 ---
 cz: 
-  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: A copy of all mail be sent to the following addresses
+  a_copy_of_all_mail_will_be_sent_to_the_following_addresses: Kopie všech e-mailů se zasílají na následující adresy
   abbreviation: Abbreviation
   access_denied: "Access Denied"
   account: Účet
@@ -189,7 +189,7 @@ cz:
   assign_taxons: "Assign Taxons"
   authorization_failure: "Authorization Failure"
   authorized: Authorized
-  available_on: "Available On"
+  available_on: "K dispozici od"
   available_taxons: "Available Taxons"
   back: Back
   back_to_store: "Zpět na výběr zboží"
@@ -198,7 +198,7 @@ cz:
   billing_address: "Fakturační adresa"
   calculator: Calculator
   calculator_settings_warning: "If you are changing the calculator type, you must save first before you can edit the calculator settings"
-  cancel: cancel
+  cancel: Zrušit
   canceled: Canceled
   capture: capture
   card_code: "kód karty"
@@ -219,19 +219,19 @@ cz:
   comp_order_confirmation: "Customer will not be charged.  Are you sure you want to comp this order?"
   complete_list: "Complete List"
   configuration: Nastavení
-  configuration_options: "Configuration Options"
+  configuration_options: "Možnosti nastavení"
   configurations: Nastavení
   confirm: Potvrzení hesla
   confirm_delete: "Confirm Deletion"
   confirm_password: "Password Confirmation"
   continue: Pokračovat
   continue_shopping: "Pokračovat v nákupu"
-  copy_all_mails_to: Copy All Mails To
+  copy_all_mails_to: Kopie e-mailů poslat na
   country: Země
   country_based: "Country Based"
   coupon: Coupon                                                                             
-  coupons: Coupons
-  coupons_description: Manage coupons
+  coupons: Slevové kupóny
+  coupons_description: Nastavení slevových kuponů
   create: Pokračovat
   create_a_new_account: "Vytvořit nový učet"
   create_user_account: Vytvořit nový účet
@@ -244,12 +244,12 @@ cz:
   current: Current
   customer: Zákazník
   date_range: "Date Range"
-  delete: Delete
+  delete: Smazat
   depth: Depth
   description: Popis
   destroy: Destroy
   display: Display
-  edit: Upravit účet
+  edit: Editace
   editing_category: "Editing Category"
   editing_coupon: Editing Coupon
   editing_option_type: "Editing Option Type"
@@ -266,7 +266,7 @@ cz:
   editing_zone: "Editing Zone"
   email: Email
   email_address: "Email Address"
-  email_server_settings_description: "Set email server settings."
+  email_server_settings_description: "Nastavení poštovního serveru."
   empty_cart: "Vyprázdnit košík"
   enable_mail_delivery: Enable Mail Delivery      
   enter_exactly_as_shown_on_card: Please enter exactly as shown on the card
@@ -288,13 +288,13 @@ cz:
   flexible_rate: "Flexible Rate"
   forgot_password: "Zapomenuté heslo"
   full_name: "Full Name"
-  gateway: Gateway
+  gateway: Způsoby platby
   gateway_configuration: "Gateway configuration"
   gateway_error: "Gateway Error"
-  gateway_setting_description: "Select a payment gateway and configure its settings."
+  gateway_setting_description: "Výběr platební brány a její nastavení."
   general: "General"
   general_settings: "Hlavní nastavení"
-  general_settings_description: "Configure general Spree settings."
+  general_settings_description: "Hlavní nastavení obchodu."
   google_analytics: "Google Analytics"
   google_analytics_active: "Active"
   google_analytics_create: "Create New Google Analytics Account"
@@ -308,14 +308,14 @@ cz:
   home: "Domů"
   icons_by: "Icons by"
   image: Image
-  images: Images
+  images: Obrázky
   images_for: "Images for"
   in_progress: "In Progress"
   invalid_search: "Invalid search criteria."
   inventory: Inventory
   inventory_adjustment: "Inventory Adjustment"
-  inventory_setting_description: "Inventory Configuration, Backordering, Zero-Stock Display"
-  inventory_settings: "Inventory Settings"
+  inventory_setting_description: "Nastavení zboží, zpětné objednávání, zobrazení stavu skladu"
+  inventory_settings: "Nastavení zboží"
   issue_number: Issue Number
   item: Název položky
   item_description: "Název položky"
@@ -326,7 +326,7 @@ cz:
   listing_option_types: "Listing Option Types"
   listing_orders: "Seznam objednávek"
   listing_reports: "Seznam reportů"
-  listing_tax_categories: "Listing Tax Categories"
+  listing_tax_categories: "Seznam kategorií DPH"
   listing_users: "Seznam uživatelů"
   loading: Loading
   locale_changed: "Locale Changed"
@@ -340,9 +340,9 @@ cz:
   logout: Odhlásit  
   maestro_or_solo_cards: Maestro/Solo cards
   mail_delivery_enabled: "Mail delivery is enabled"
-  mail_delivery_not_enabled: "Mail delivery is not enabled"
+  mail_delivery_not_enabled: "Doručování e-mailů není nastaveno"
   mail_server_preferences: Mail Server Preferences
-  mail_server_settings: "Mail Server Settings"
+  mail_server_settings: "Nastavení poštovního serveru"
   mark_shipped: "Mark Shipped"
   master_price: "Základní Cena"
   meta_description: "Meta Description"
@@ -368,9 +368,9 @@ cz:
   new_shipping_method: "New Shipping Method"
   new_state: "New State"
   new_tax_category: "New Tax Category"
-  new_tax_rate: "New Tax Rate"
+  new_tax_rate: "Přidat sazbu DPH"
   new_taxon: "New Taxon"
-  new_taxonomy: "New Taxonomy"
+  new_taxonomy: "Nové třídění"
   new_user: "Přidat uživatele"
   new_variant: "New Variant"
   new_zone: "New Zone"
@@ -382,10 +382,10 @@ cz:
   none: None
   none_available: "None Available"
   not: not
-  on_hand: "On Hand"
+  on_hand: "Skladem"
   operation: Operation
   option_Values: "Option Values"
-  option_types: "Option Types"
+  option_types: "Typy možností"
   option_values: "Option Values"
   options: Options
   or: nebo
@@ -414,7 +414,7 @@ cz:
   path: Path      
   pay: pay
   payment: Payment
-  payment_gateway: "Payment Gateway"
+  payment_gateway: "Platební brána"
   payment_information: "Způsob platby"
   payments: Payments
   phone: Telefon
@@ -430,15 +430,15 @@ cz:
   proceed_as_guest: "Pokračovat jako host"
   process: Process
   product: Product
-  product_details: "Product Details"
+  product_details: "Podrobnosti o zboží"
   product_has_no_description: Product has not description
-  product_properties: "Product Properties"
+  product_properties: "Vlastnosti zboží"
   products: Zboží
   products_with_zero_inventory_display: "Products with a zero inventory will {{not}} be displayed"
   properties: Vlastnosti
   property: Property
   prototype: Prototype
-  prototypes: Prototypes
+  prototypes: Prototypy
   qty: Počet kusů
   rate: Rate
   register: Zaregistrovat se jako nový zákazník
@@ -463,7 +463,7 @@ cz:
   sales_totals_description: "Sales Total For All Orders"
   save_preferences: Save Preferences           
   search: Hledat
-  secure_connection_type: Secure Connection Type
+  secure_connection_type: Typ zabezpečeného připojení
   select: Select
   select_from_prototype: "Select From Prototype"
   select_preferred_shipping_option: "Select preferred shipping option"
@@ -480,29 +480,29 @@ cz:
   shipped: Shipped
   shipping: Shipping
   shipping_address: "Dodací adresa"
-  shipping_categories: "Shipping Categories"
-  shipping_categories_description: "Manage shipping categories to identify which products can be shipped via which method"
+  shipping_categories: "Kategorie přepravy"
+  shipping_categories_description: "Nastavení kategorie přepravy, identifikace zboží, zda bylo posláno, jakým způsobem"
   shipping_cost: Cost
   shipping_error: "Shipping Error"
   shipping_instructions: "Shipping Instructions"
-  shipping_method: "Způsob dopravy"
-  shipping_methods: "Shipping Methods"
-  shipping_methods_description: "Manage shipping methods"
+  shipping_method: "Způsob přepravy"
+  shipping_methods: "Způsoby přepravy"
+  shipping_methods_description: "Nastavení způsobů přepravy"
   shipping_total: "Shipping Total"
   shop_by_taxonomy: "{{taxonomy}}"
   shopping_cart: "Nákupní košík"
-  show_deleted: "Show Deleted"
+  show_deleted: "Zobrazit smazané"
   show_incomplete_orders: "Show Incomplete Orders"
   show_only_complete_orders: "Zobrazit pouze kompletní objednávky"
   show_out_of_stock_products: "Show out-of-stock products"
-  show_price_inc_vat: "Show price including VAT"
+  show_price_inc_vat: "Zobrazit ceny s DPH"
   sign_up: "Sign up"
-  site_name: "Site Name"
-  site_url: "Site URL"
+  site_name: "Název stránky"
+  site_url: "URL stránek"
   sku: Kód zboží
   smtp: SMTP
-  smtp_authentication_type: SMTP Authentication Type         
-  smtp_domain: SMTP Domain
+  smtp_authentication_type: SMTP Autentifikace         
+  smtp_domain: SMTP Domény
   smtp_mail_host: SMTP Mail Host                       
   smtp_password: SMTP Password
   smtp_port: SMTP Port          
@@ -522,8 +522,8 @@ cz:
   start_date: Valid from
   state: Stát
   state_based: "State Based"
-  state_setting_description: "Administer the list of states/provinces associated with each country."
-  states: States
+  state_setting_description: "Aplikace seznamu států/provincií přiřazené ke každé zemi."
+  states: Státy
   status: Stav objednávky
   stop: Stop
   store: Obchod
@@ -533,22 +533,22 @@ cz:
   subtract: Subtract
   system: System
   tax: Tax
-  tax_categories: "Tax Categories"
-  tax_categories_setting_description: "Set up tax categories to identify which products should be taxable."
-  tax_category: "Tax Category"
-  tax_rates: "Tax Rates"
-  tax_rates_description: Tax rates setup and configuration.
-  tax_settings: "Tax Settings"
-  tax_settings_description: Basic tax settings.
+  tax_categories: "Kategorie DPH"
+  tax_categories_setting_description: "Nastavení kategorie DPH podle druhu zboží."
+  tax_category: "Kategorie DPH"
+  tax_rates: "Sazby DPH"
+  tax_rates_description: Nastavení sazeb DPH.
+  tax_settings: "Nastavení DPH"
+  tax_settings_description: Základní nastavení sazeb DPH.
   tax_total: "Tax Total"
   tax_type: "Tax Type"
   taxon: Taxon
-  taxonomies: Taxonomies
-  taxonomies_setting_description: "Create and manage taxonomies"
+  taxonomies: Způsoby třídění
+  taxonomies_setting_description: "Vytvoření a nastavení třídění"
   taxonomy_edit: "Edit taxonomy"
   taxonomy_tree_error: "The requested change has not been accepted and the tree has been returned to its previous state, please try again."
   taxonomy_tree_instruction: "* Right click a child in the tree to access the menu for adding, deleting or sorting a child."
-  taxons: Taxons
+  taxons: Třídění
   thank_you_for_your_order: "Děkujeme za Vaši objednávku. Vytiskněte si prosím tuto stránku jako potvrzení Vaší objednávky."
   this_file_language: "Čeština (CZ)"
   thumbnail: "Thumbnail"
@@ -577,7 +577,7 @@ cz:
   user_details: "User Details"
   users: Uživatelé
   value: Value
-  variants: Variants
+  variants: Varianty
   vat: "VAT"           
   version: Version
   website: Website
@@ -594,5 +594,5 @@ cz:
   zip: PSC
   zone: Zone
   zone_based: "Zone Based"
-  zone_setting_description: "Collections of countries, states or other zones to be used in various calculations."
-  zones: Zones 
+  zone_setting_description: "Seznamy zemí, států a oblastí, které mohou být použity v různých výpočtech."
+  zones: Oblasti 
