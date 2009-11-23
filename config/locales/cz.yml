@@ -338,7 +338,7 @@ cz:
   login_failed: "Neplatné uživatelské jméno nebo heslo."    
   login_name: Login
   logout: Odhlásit  
-  maestro_or_solo_cards: Maestro/Solo cards
+  maestro_or_solo_cards: Karty Maestro/Solo
   mail_delivery_enabled: "Mail delivery is enabled"
   mail_delivery_not_enabled: "Doručování e-mailů není nastaveno"
   mail_server_preferences: Mail Server Preferences
@@ -478,7 +478,7 @@ cz:
   shipment: Shipment
   shipment_number: "Shipment #"
   shipped: Shipped
-  shipping: Shipping
+  shipping: Doprava
   shipping_address: "Dodací adresa"
   shipping_categories: "Kategorie přepravy"
   shipping_categories_description: "Nastavení kategorie přepravy, identifikace zboží, zda bylo posláno, jakým způsobem"
@@ -528,11 +528,11 @@ cz:
   stop: Stop
   store: Obchod
   street_address: "Ulice a číslo"
-  street_address_2: "Street Address (cont'd)"
+  street_address_2: "Pošta (nepovinné)"
   subtotal: Celkem
   subtract: Subtract
   system: System
-  tax: Tax
+  tax: Daň
   tax_categories: "Kategorie DPH"
   tax_categories_setting_description: "Nastavení kategorie DPH podle druhu zboží."
   tax_category: "Kategorie DPH"
@@ -563,7 +563,7 @@ cz:
   unable_to_authorize_credit_card: "Unable to Authorize Credit Card"
   unable_to_capture_credit_card: "Unable to Capture Credit Card"
   unable_to_save_order: "Unable to Save Order"
-  unrecognized_card_type: Unrecognized card type
+  unrecognized_card_type: Nerozpoznaný druh karty
   update: Aktualizovat
   update_password: "Update my password and log me in"                    
   updated_successfully: "Updated Successfully"
@@ -583,7 +583,7 @@ cz:
   website: Website
   weight: Weight
   welcome_to_sample_store: "Welcome to the sample store"
-  what_is_a_cvv: "What is a (CVV) Credit Card Code?"
+  what_is_a_cvv: "Co je (CVV) Credit Card Code?"
   what_is_this: "What's This?"
   whats_this: "Co to je?"
   width: Width
@@ -591,8 +591,10 @@ cz:
   yes: "Yes"
   you_have_been_logged_out: "Byl jste odhlášen."
   your_cart_is_empty: "Košík je prázdný"
-  zip: PSC
+  zip: PSČ
   zone: Zone
   zone_based: "Zone Based"
   zone_setting_description: "Seznamy zemí, států a oblastí, které mohou být použity v různých výpočtech."
   zones: Oblasti 
+  order_summary: Shrnutí objednávky
+  coupon_code: Číslo kupónu
