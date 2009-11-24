@@ -4,3 +4,4 @@ cz:
       card_cvv: Na kartách Visa, MasterCard a Discover, jsou card code poslední 3 číslice nacházející se na zadní straně karty na nebo nad vlastnoručním podpisem. Na kartě American Express jsou to 4 číslice na přední straně nad koncem čísla karty.
       cvv_info: V prostředí kdy karta není fyzicky přítomna, společnosti s kreditnímy kartami uvedly kódový program karet. Visa tento kód nazývá Card Verification Code (CVC); Discover ho nazývá Card ID (CID). Kód karty je tří- nebo čtyř- místný bezpečnostní kód, který je vytištěn zepředu nebo zezadu na kartě. Obvykle se nachází na konci podpisového vzoru.
       tax: Dph
+      back_to_list: Zpět na seznam

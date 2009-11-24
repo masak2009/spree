@@ -1,0 +1,10 @@
+<h1><%= t("editing_shipping_method") %></h1>
+<%= error_messages_for :shipping_method %>
+
+<%= link_to t('ext.additional_translation.back_to_list'), { :action => :index } %>
+<% form_for(@shipping_method, :url => object_url, :html => { :method => :put }) do |f| %>
+  <%= render :partial => "form", :locals => { :f => f } %>
+  <p>
+    <%=submit_tag t("update")%>
+  </p>
+<% end %>

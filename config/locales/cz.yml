@@ -5,7 +5,7 @@ cz:
   access_denied: "Access Denied"
   account: Účet
   account_updated: "Učet byl aktualizován!"        
-  action: Action
+  action: Akce
   actions: 
     cancel: Cancel
     create: Create
@@ -209,12 +209,12 @@ cz:
   category: Category
   change: Change
   change_language: "Změna jazyka:"
-  charge_total: Charge Total
+  charge_total: Poplatky celkem
   charged: Charged
   checkout: Potvrdit
   city: Město
-  code: Code
-  combine: Combine
+  code: Kód
+  combine: Kombinovatelný
   comp_order: "Comp Order"
   comp_order_confirmation: "Customer will not be charged.  Are you sure you want to comp this order?"
   complete_list: "Complete List"
@@ -239,7 +239,7 @@ cz:
   credit_card: "Kreditní karta"
   credit_card_capture_complete: "Kreditní karta byla přijatá"
   credit_card_payment: "Platba kreditní kartou"
-  credit_total: Credit Total
+  credit_total: Credit celkem
   creditcard: Creditcard
   current: Current
   customer: Zákazník
@@ -251,14 +251,14 @@ cz:
   display: Display
   edit: Editace
   editing_category: "Editing Category"
-  editing_coupon: Editing Coupon
+  editing_coupon: Úprava kupónu
   editing_option_type: "Editing Option Type"
   editing_option_types: "Editing Option Types"
   editing_product: "Editing Product"
   editing_property: "Editing Property"
   editing_prototype: "Editing Prototype"
-  editing_shipping_category: "Editing Shipping Category"
-  editing_shipping_method: "Editing Shipping Method"
+  editing_shipping_category: "Úprava katagorie přepravy"
+  editing_shipping_method: "Úprava způsobu přepravy"
   editing_state: "Editing State"
   editing_tax_category: "Editing Tax Category"
   editing_tax_rate: "Editing Tax Rate"
@@ -319,7 +319,7 @@ cz:
   issue_number: Issue Number
   item: Název položky
   item_description: "Název položky"
-  item_total: "Celkem"
+  item_total: "Zboží celkem"
   last_name: "Příjmení"
   list: List
   listing_categories: "Listing Categories"
@@ -354,7 +354,7 @@ cz:
   name: Název zboží
   new: Nové
   new_category: "New category"
-  new_coupon: New Coupon
+  new_coupon: Nový kupón
   new_credit_card_payment: "Nová platba creditní kartou"
   new_customer: "Vytvoření nového zákazníka"
   new_image: "New Image"
@@ -364,8 +364,8 @@ cz:
   new_property: "Přidat vlastnost"
   new_prototype: "New Prototype"
   new_shipment: "New Shipment"
-  new_shipping_category: "New Shipping Category"
-  new_shipping_method: "New Shipping Method"
+  new_shipping_category: "Nová kategorie přepravy"
+  new_shipping_method: "Nový způsob přepravy"
   new_state: "New State"
   new_tax_category: "New Tax Category"
   new_tax_rate: "Přidat sazbu DPH"
@@ -457,9 +457,9 @@ cz:
   returned: Returned
   roles: Roles
   sales_tax: "Sales Tax"
-  sales_total: "Sales Total"
+  sales_total: "Tržba celkem"
   sales_total_for_all_orders: "Sales total for all orders"
-  sales_totals: "Sales Totals"
+  sales_totals: "Tržby shrnutí"
   sales_totals_description: "Sales Total For All Orders"
   save_preferences: Save Preferences           
   search: Hledat
@@ -472,7 +472,7 @@ cz:
   send_mails_as: Send Mails As                    
   send_order_mails_as: Send Order Mails As   
   server_error: "The server returned an error"  
-  settings: Settings
+  settings: Nastavení
   ship: ship
   ship_address: "Doručovací adresa"
   shipment: Doprava
@@ -568,7 +568,7 @@ cz:
   update_password: "Update my password and log me in"                    
   updated_successfully: "Updated Successfully"
   updating: Updating
-  usage_limit: Usage Limit
+  usage_limit: Limit použití
   use_as_shipping_address: Use as Shipping Address
   use_billing_address: Použít fakturační adresu
   use_different_shipping_address: "Use Different Shipping Address"
@@ -604,3 +604,8 @@ cz:
   Capture: přijatá
   Are_you_sure_you_want_to_cancel: Opravdu chcete zrušit
   Are_you_sure_you_want_to_resume: Opravdu chcete obnovit objednávku
+  shipping_rates: Sazby poštovného
+  new_shipping_rate: Nová sazba
+  shipping_category: Kategorie
+  editing_shipping_rate: Úprava sazby poštovného
+  shipping_rates_description: Nastavení výpočtu sazeb poštovného
