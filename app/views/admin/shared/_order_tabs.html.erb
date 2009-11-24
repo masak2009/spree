@@ -15,7 +15,7 @@
   	</li>
   	<% if @order_admin_tabs && @order_admin_tabs.size > 0
   		@order_admin_tabs.each do |extension| %>
-    	<li <%= ' class="active"' if current == extension[:name].titleize.pluralize %>>
+      <li <%= ' class="active"' if current == extension[:name].titleize.pluralize %>>
     	  <%= link_to t(extension[:name], :default => extension[:name].titleize.pluralize),
     	              eval(extension[:url] + " @order") %>
     	</li>

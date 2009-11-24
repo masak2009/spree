@@ -612,3 +612,10 @@ en-US:
   zone_based: "Zone Based"
   zone_setting_description: "Collections of countries, states or other zones to be used in various calculations."
   zones: Zones
+  coupon_code: Coupon code
+  complete: complete
+  Shipments: Shipments
+  Authorize: authorize
+  Capture: capture
+  Are_you_sure_you_want_to_cancel: Are you sure you want to cancel
+  Are_you_sure_you_want_to_resume: Are you sure you want to resume

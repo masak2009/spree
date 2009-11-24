@@ -101,7 +101,7 @@ cz:
         one: "Credit Card"
         other: "Credit Cards"
       creditcard_payment: 
-        one: "Credit Card Payment"
+        one: "Platba kreditní kartou"
         other: "Credit Card Payments"
       creditcard_txn: 
         one: "Credit Card Transaction"
@@ -167,7 +167,7 @@ cz:
   add_state: "Add State"
   add_to_cart: "Přidat do košíku"
   add_zone: "Add Zone"
-  address: Address
+  address: Adresa
   address_information: "Address Information"
   adjustment: Adjustment
   administration: Administrace
@@ -178,14 +178,14 @@ cz:
   allowed_ssl_in_production_mode: "SSL will {{not}} be used in production"
   already_registered: Přihlásit se jako registrovaný zákazník
   alternative_phone: Alternative Phone
-  amount: Amount
+  amount: Částka
   are_you_sure: "Are you sure?"
   are_you_sure_category: "Are you sure you want to delete this category?"
   are_you_sure_delete: "Are you sure you want to delete this record?"
   are_you_sure_delete_image: "Are you sure you want to delete this image?"
   are_you_sure_option_type: "Are you sure you want to delete this option type?"
-  are_you_sure_you_want_to_capture: "Are you sure you want to capture?"
-  assign_taxon: "Assign Taxon"
+  are_you_sure_you_want_to_capture: "Jste si jistí že je transkace přijatá?"
+  assign_taxon: "Assign Taxon" 
   assign_taxons: "Assign Taxons"
   authorization_failure: "Authorization Failure"
   authorized: Authorized
@@ -194,13 +194,13 @@ cz:
   back: Back
   back_to_store: "Zpět na výběr zboží"
   backordering_is_allowed: "Backordering {{not}} allowed"
-  bill_address: "Bill Address"
+  bill_address: "Fakturační adresa"
   billing_address: "Fakturační adresa"
   calculator: Calculator
   calculator_settings_warning: "If you are changing the calculator type, you must save first before you can edit the calculator settings"
   cancel: Zrušit
-  canceled: Canceled
-  capture: capture
+  canceled: Zrušeno
+  capture: přijatá
   card_code: "kód karty"
   card_number: "číslo karty"
   card_type_is: Card type is
@@ -221,7 +221,7 @@ cz:
   configuration: Nastavení
   configuration_options: "Možnosti nastavení"
   configurations: Nastavení
-  confirm: Potvrzení hesla
+  confirm: Potvrzení objednávky
   confirm_delete: "Confirm Deletion"
   confirm_password: "Password Confirmation"
   continue: Pokračovat
@@ -236,14 +236,14 @@ cz:
   create_a_new_account: "Vytvořit nový učet"
   create_user_account: Vytvořit nový účet
   created_successfully: "Created Successfully"
-  credit_card: "Credit Card"
-  credit_card_capture_complete: "Credit Card Was Captured"
-  credit_card_payment: "Credit Card Payment"
+  credit_card: "Kreditní karta"
+  credit_card_capture_complete: "Kreditní karta byla přijatá"
+  credit_card_payment: "Platba kreditní kartou"
   credit_total: Credit Total
   creditcard: Creditcard
   current: Current
   customer: Zákazník
-  date_range: "Date Range"
+  date_range: "Datum rozmezí"
   delete: Smazat
   depth: Depth
   description: Popis
@@ -271,7 +271,7 @@ cz:
   enable_mail_delivery: Enable Mail Delivery      
   enter_exactly_as_shown_on_card: Please enter exactly as shown on the card
   error: error
-  event: Event
+  event: Událost
   existing_customer: "Registrovaný zákazník"
   expiration: "Platnost karty do:"
   expiration_month: "Expiration Month"
@@ -287,7 +287,7 @@ cz:
   flat_rate_per_order: "Flat Rate (per order)"
   flexible_rate: "Flexible Rate"
   forgot_password: "Zapomenuté heslo"
-  full_name: "Full Name"
+  full_name: "Celé jméno"
   gateway: Způsoby platby
   gateway_configuration: "Gateway configuration"
   gateway_error: "Gateway Error"
@@ -304,7 +304,7 @@ cz:
   guest_user_account: Přihlásit se jako host
   height: Height
   hello_user: "Hello User"
-  history: History
+  history: Historie
   home: "Domů"
   icons_by: "Icons by"
   image: Image
@@ -343,7 +343,7 @@ cz:
   mail_delivery_not_enabled: "Doručování e-mailů není nastaveno"
   mail_server_preferences: Mail Server Preferences
   mail_server_settings: "Nastavení poštovního serveru"
-  mark_shipped: "Mark Shipped"
+  mark_shipped: "Odesláno dopravcem"
   master_price: "Základní Cena"
   meta_description: "Meta Description"
   meta_keywords: "Meta Keywords"
@@ -352,10 +352,10 @@ cz:
   my_account: "Účet"
   my_orders: "Moje objednávky"    
   name: Název zboží
-  new: New
+  new: Nové
   new_category: "New category"
   new_coupon: New Coupon
-  new_credit_card_payment: "New Credit Card Payment"
+  new_credit_card_payment: "Nová platba creditní kartou"
   new_customer: "Vytvoření nového zákazníka"
   new_image: "New Image"
   new_option_type: "New Option Type"
@@ -374,13 +374,13 @@ cz:
   new_user: "Přidat uživatele"
   new_variant: "New Variant"
   new_zone: "New Zone"
-  next: Next
+  next: Další
   no: "No"
   no_items_in_cart: ""
   no_match_found: "No Match Found"
   no_user_found: "No user was found with that email address"
   none: None
-  none_available: "None Available"
+  none_available: "Nedostupný"
   not: not
   on_hand: "Skladem"
   operation: Operation
@@ -389,22 +389,22 @@ cz:
   option_values: "Option Values"
   options: Options
   or: nebo
-  order: Order
+  order: Objednávka
   order_confirmation_note: ""
   order_date: "Datum objednání"
-  order_details: "Order Details"
-  order_email_resent: "Order Email Resent"
+  order_details: "Detail objednávky"
+  order_email_resent: "Email s objednávkou byl odeslán"
   order_not_in_system: That order number is not valid on this site.
   order_number: Objednávka
-  order_operation_authorize: Authorize
+  order_operation_authorize: Oprávněná
   order_processed_successfully: "Vaše objednávka byla úspěšně odeslána"
   order_total: "Celkem k úhradě"
   order_total_message: "The total amount charged to your card will be"
-  order_updated: "Order Updated"
+  order_updated: "Objednávka byla upravena"
   orders: Objednávky
   out_of_stock: "Out of Stock"
   overview: Přehled
-  paid: Paid
+  paid: Zaplaceno
   parent_category: "Parent Category"
   password: Heslo
   password_reset_instructions: "Password Reset Instructions"
@@ -412,17 +412,17 @@ cz:
   password_reset_token_not_found: "We're sorry, but we could not locate your account. If you are having issues try copying and pasting the URL from your email into your browser or restarting the reset password process."    
   password_updated: "Password successfully updated"  
   path: Path      
-  pay: pay
+  pay: placeno
   payment: Payment
   payment_gateway: "Platební brána"
   payment_information: "Způsob platby"
-  payments: Payments
+  payments: Platby
   phone: Telefon
   place_order: Odeslat objednávku        
   please_create_user: "Please create a user account"     
   powered_by: "Powered by"
   presentation: Presentation
-  previous: Previous
+  previous: Předchozí
   price: Cena
   problem_authorizing_card: "Problem authorizing credit card"
   problem_capturing_card: "Problem capturing credit card"
@@ -448,10 +448,10 @@ cz:
   remove: Remove
   reports: Reporty
   required_for_solo_and_maestro: Required for Solo and Maestro cards.
-  resend: Resend
+  resend: Znovu odeslat
   reset_password: "Poslat zapomenuté heslo"
   response_code: "Response Code"  
-  resume: "resume"
+  resume: Obnovit objednávku
   resumed: Resumed
   return: return
   returned: Returned
@@ -474,15 +474,15 @@ cz:
   server_error: "The server returned an error"  
   settings: Settings
   ship: ship
-  ship_address: "Ship Address"
-  shipment: Shipment
-  shipment_number: "Shipment #"
+  ship_address: "Doručovací adresa"
+  shipment: Doprava
+  shipment_number: "Zásilka #"
   shipped: Shipped
   shipping: Doprava
   shipping_address: "Dodací adresa"
   shipping_categories: "Kategorie přepravy"
   shipping_categories_description: "Nastavení kategorie přepravy, identifikace zboží, zda bylo posláno, jakým způsobem"
-  shipping_cost: Cost
+  shipping_cost: Cena
   shipping_error: "Shipping Error"
   shipping_instructions: "Shipping Instructions"
   shipping_method: "Způsob přepravy"
@@ -512,20 +512,20 @@ cz:
   smtp_send_order_mails_as_from_following_address: "Send orders mails as from the following address."
   smtp_username: SMTP Username  
   spree:
-    date: Date
-    time: Time                                               
+    date: Datum
+    time: Čas                                               
   ssl_will_be_used_in_development_and_test_modes: "SSL will be used in development and test mode if necessary."
   ssl_will_be_used_in_production_mode: "SSL will be used in production mode"
   ssl_will_not_be_used_in_development_and_test_modes: "SSL will not be used in development and test mode if necessary."
   ssl_will_not_be_used_in_production_mode: "SSL will not be used in production mode"
-  start: Start
+  start: Od
   start_date: Valid from
   state: Stát
   state_based: "State Based"
   state_setting_description: "Aplikace seznamu států/provincií přiřazené ke každé zemi."
   states: Státy
   status: Stav objednávky
-  stop: Stop
+  stop: Do
   store: Obchod
   street_address: "Ulice a číslo"
   street_address_2: "Pošta (nepovinné)"
@@ -555,10 +555,10 @@ cz:
   to_add_variants_you_must_first_define: "To add variants, you must first define"
   total: Celkem
   tracking: Tracking
-  transaction: Transaction
+  transaction: Transakce
   tree: Tree
   try_again: "Try Again"     
-  type: Type
+  type: Typ
   unable_ship_method: "Unable to generate shipping methods due to a server error."
   unable_to_authorize_credit_card: "Unable to Authorize Credit Card"
   unable_to_capture_credit_card: "Unable to Capture Credit Card"
@@ -572,7 +572,7 @@ cz:
   use_as_shipping_address: Use as Shipping Address
   use_billing_address: Použít fakturační adresu
   use_different_shipping_address: "Use Different Shipping Address"
-  user: User
+  user: Uživatel
   user_account: User Account
   user_details: "User Details"
   users: Uživatelé
@@ -598,3 +598,9 @@ cz:
   zones: Oblasti 
   order_summary: Shrnutí objednávky
   coupon_code: Číslo kupónu
+  complete: kompletní
+  Shipments: Doprava
+  Authorize: oprávněná
+  Capture: přijatá
+  Are_you_sure_you_want_to_cancel: Opravdu chcete zrušit
+  Are_you_sure_you_want_to_resume: Opravdu chcete obnovit objednávku
