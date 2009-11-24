@@ -8,8 +8,8 @@ class OrdersController < Spree::BaseController
   actions :all, :except => :index
   
   helper :products
-
-  create.after do    
+  
+  create.after do
     params[:products].each do |product_id,variant_id|
       quantity = params[:quantity].to_i if !params[:quantity].is_a?(Array)
       quantity = params[:quantity][variant_id].to_i if params[:quantity].is_a?(Array)

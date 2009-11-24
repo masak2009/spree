@@ -1,0 +1,6 @@
+en-GB:
+  ext:
+    no_credit_card:
+      new_bank_transfer_payment: Bank Transfer
+      new_cash_on_delivery_payment: Cash on delivery
+      new_credit_card_payment: Credit card payment

@@ -1,0 +1,43 @@
+<div class='toolbar'>
+  <ul class='actions'>
+    <li>
+      <%= button_link_to (t("ext.no_credit_card.new_credit_card_payment"), new_admin_order_creditcard_payment_url(@order), :icon => 'add') %>
+    </li>
+    <li>
+      <%= button_link_to (t("ext.no_credit_card.new_bank_transfer_payment"), :controller => "bank_transfer_payments", :action => "new", :id => @order.id) %>
+    </li>
+    <li>
+      <%= button_link_to (t("ext.no_credit_card.new_cash_on_delivery_payment"), :controller => "cash_on_delivery_payments", :action => "new", :id => @order.id) %>
+    </li>
+
+  </ul>
+  <br class='clear' />
+</div>
+
+<%= render :partial => 'admin/shared/order_tabs', :locals => {:current => "Payments"} %>
+
+<table class="index">
+  <tr>
+    <th><%= "#{t('spree.date')}/#{t('spree.time')}" %></th>
+    <th><%= t("amount") %></th>
+    <th><%= t("type") %></th>
+    <th></th>
+  </tr>
+  <% @payments.each do |payment| %>
+    <tr>
+      <td><%= payment.created_at.to_s(:date_time24) %></td>
+      <td><%= number_to_currency(payment.amount) %></td>
+      <td><%= payment.class.to_s %></td>
+      <!-- TODO: don't assume credit card, make it possible to edit other kinds of payments -->
+      <td>
+        <% if payment.type.to_s == "CreditcardPayment" %>
+          <%= link_to_with_icon 'edit', t('edit'), edit_admin_order_creditcard_payment_url(@order, payment) %>
+        <% elsif payment.type.to_s == "BankTransfer"%>
+          <%= link_to_with_icon 'edit', t('edit'), :controller => "bank_transfer_payments", :action => "edit", :id => payment.id  %>
+        <% elsif payment.type.to_s == "CashOnDelivery"%>
+          <%= link_to_with_icon 'edit', t('edit'), :controller => "cash_on_delivery_payments", :action => "edit", :id => payment.id  %>
+        <% end %>
+      </td>
+    </tr>
+  <% end %>
+</table>

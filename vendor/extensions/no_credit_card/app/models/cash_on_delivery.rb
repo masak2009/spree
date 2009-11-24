@@ -1,0 +1,2 @@
+class CashOnDelivery < Payment
+end

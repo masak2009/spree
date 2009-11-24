@@ -1,0 +1,24 @@
+cz:
+  ext:
+    no_credit_card:
+      new_bank_transfer_payment: Bankovní převod
+      new_cash_on_delivery_payment: Dobírka
+      new_credit_card_payment: Kreditní karta
+      bank_transfer_payment: Bankovní převod
+      bank_transfer: Bankovním převodem
+      cash_on_delivery: Na dobírku
+      cash_on_delivery_payment: Dobírka
+      payed: Zaplaceno
+      transaction: Transakce
+      amount: Částka
+      date: Datum
+      time: Čas
+      action: Akce
+      pay: Zaplatil
+      no_no: Ne
+      yes_yes: Ano
+      amount_for_pay: Částka k zaplacení
+      bill_address: Fakturační adresa
+      back: Zpět
+      bank_account_sentence: Peníze zašlete na bankovní účet číslo
+      variable_symbol: Variabilní symbol

@@ -1,0 +1,44 @@
+<%= render :partial => 'admin/shared/order_tabs', :locals => {:current => "Payments"} %>
+<br/>
+<h2><%= t("ext.no_credit_card.bank_transfer_payment")%></h2>
+<br/>
+
+<% if @order.bill_address %>
+  <div class='adr'>
+    <h4>
+      <%#= link_to t("ext.no_credit_card.bill_address"), edit_admin_order_creditcard_payment_url(@order, @order.payments.last) if @order.payments.present? %>
+      <%= t("ext.no_credit_card.bill_address") %>
+      <%= t("ext.no_credit_card.bill_address") if @order.payments.empty? %>
+    </h4>
+    <%= render :partial => 'admin/shared/address', :locals => {:address => @order.bill_address} %>      
+  </div>
+<% end %>                   
+
+<% form_for(@payment, :url => {:controller => "bank_transfer_payments", :action => "pay", :id => @payment.id}, :html => { :method => :put}) do |payment_form| %>
+  
+
+	<table class="index">
+	  <tr>
+	    <th><%= t("ext.no_credit_card.transaction") %></th>
+	    <th><%= t("ext.no_credit_card.amount_for_pay") %></th>
+	    <th><%= "#{t('ext.no_credit_card.date')}/#{t('ext.no_credit_card.time')}" %></th>
+	    <th><%= t('ext.no_credit_card.payed')%>?</th>
+	    <th><%= t("ext.no_credit_card.amount") %></th>	    
+	    <th><%= t('ext.no_credit_card.action')%></th>
+	  </tr>
+	    <tr>
+	      <td><%=@payment.id.to_i%></td>
+	      <td><%=number_to_currency @order.total%></td>
+	      <td><%=@payment.created_at.to_s(:date_time24)%></td>
+	      <td> <% if @payment.amount.to_i == 0 %>
+		<%=	t('ext.no_credit_card.no_no')%>
+		    <%else%>
+		<%=     t('ext.no_credit_card.yes_yes') %>
+		    <%end%>
+	      </td>
+	      <td><%=text_field(:payment, :amount, :size => 10)%></td>
+	      <td> <%=submit_tag(t('ext.no_credit_card.pay'))%></td>
+	    </tr>
+	   
+	</table>
+<% end %>

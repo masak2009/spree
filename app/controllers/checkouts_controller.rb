@@ -6,7 +6,6 @@ class CheckoutsController < Spree::BaseController
   belongs_to :order             
 
   ssl_required :update, :edit
-
   # alias original r_c method so we can handle any (gateway) exceptions that might be thrown
   alias :rc_update :update
   def update 
@@ -21,11 +20,11 @@ class CheckoutsController < Spree::BaseController
       redirect_to edit_object_url and return
     end
   end
- 
+
   update do
     flash nil
     
-    success.wants.html do  
+    success.wants.html do
       if @order.checkout_complete 
         if current_user
           current_user.update_attribute(:bill_address, @order.bill_address)
