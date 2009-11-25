@@ -14,6 +14,10 @@ class NoUsaStatesExtension < Spree::Extension
   
   def activate
 
+    AppConfiguration.class_eval do
+      preference :address_requires_state, :boolean, :default => false # should state/state_name be required
+   end
+
     # Add your extension tab to the admin.
     # Requires that you have defined an admin controller:
     # app/controllers/admin/yourextension_controller

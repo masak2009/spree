@@ -4,7 +4,7 @@
 <br/>
 
 <% if @order.bill_address %>
-  <div class='adr'>
+  <div class='adr' style='float:none;'>
     <h4>
       <%#= link_to t("bill_address"), edit_admin_order_creditcard_payment_url(@order, @order.payments.last) if @order.payments.present? %>
       <%= t("ext.no_credit_card.bill_address") %>

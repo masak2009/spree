@@ -1,4 +1,4 @@
-class Admin::BankTransferPaymentsController < ApplicationController
+class Admin::BankTransferPaymentsController < Admin::BaseController
 helper 'spree/base'
 
   def edit

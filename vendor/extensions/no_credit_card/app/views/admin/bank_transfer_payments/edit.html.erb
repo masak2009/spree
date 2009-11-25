@@ -4,7 +4,7 @@
 <br/>
 
 <% if @order.bill_address %>
-  <div class='adr'>
+  <div class='adr' style='float:none;'>
     <h4>
       <%#= link_to t("ext.no_credit_card.bill_address"), edit_admin_order_creditcard_payment_url(@order, @order.payments.last) if @order.payments.present? %>
       <%= t("ext.no_credit_card.bill_address") %>
@@ -13,7 +13,7 @@
     <%= render :partial => 'admin/shared/address', :locals => {:address => @order.bill_address} %>      
   </div>
 <% end %>                   
-
+<div>
 <% form_for(@payment, :url => {:controller => "bank_transfer_payments", :action => "pay", :id => @payment.id}, :html => { :method => :put}) do |payment_form| %>
   
 
@@ -42,3 +42,4 @@
 	   
 	</table>
 <% end %>
+</div>
