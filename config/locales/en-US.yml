@@ -195,7 +195,7 @@ en-US:
   back: Back
   back_to_store: "Go Back To Store"
   backordering_is_allowed: "Backordering {{not}} allowed"
-  bill_address: "Bill Address"
+  bill_address: "Billing Address"
   billing_address: "Billing Address"
   calculator: Calculator
   calculator_settings_warning: "If you are changing the calculator type, you must save first before you can edit the calculator settings"

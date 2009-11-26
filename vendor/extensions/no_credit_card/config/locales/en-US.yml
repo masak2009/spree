@@ -4,3 +4,22 @@ en-US:
       new_bank_transfer_payment: Bank Transfer
       new_cash_on_delivery_payment: Cash on delivery
       new_credit_card_payment: Credit card payment
+      bank_transfer: Bank transfer
+      bank_account_sentence: Transfer money to our bank account
+      cash_on_delivery: Cash on delivery
+      variable_symbol: Variable symbol
+      back: Back
+      bank_transfer_payment: Bank transfer payment
+      cash_on_delivery_payment: Cash on delivery payment
+      payed: Payed
+      transaction: Transaction
+      amount: Amount
+      date: Date
+      time: Time
+      action: Action
+      pay: Pay
+      no_no: No
+      yes_yes: Yes
+      amount_for_pay: Amount to pay
+      bill_address: Billing address
+
