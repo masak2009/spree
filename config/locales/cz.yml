@@ -1,7 +1,7 @@
 ---
 cz: 
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: Kopie všech e-mailů se zasílají na následující adresy
-  abbreviation: Abbreviation
+  abbreviation: Zkratka
   access_denied: "Access Denied"
   account: Účet
   account_updated: "Učet byl aktualizován!"        
@@ -159,7 +159,7 @@ cz:
         other: Zones
   add: Add
   add_category: "Add Category"
-  add_country: "Add Country"
+  add_country: "Přidat zemi"
   add_option_type: "Add Option Type"
   add_option_types: "Add Option Types"
   add_option_value: "Add Option Value"
@@ -172,7 +172,7 @@ cz:
   adjustment: Adjustment
   administration: Administrace
   all: "All"
-  allow_backorders: "Allow Backorders"
+  allow_backorders: "Povolit předobjednávky"
   allow_ssl_to_be_used_when_in_developement_and_test_modes: Allow SSL to be used when in development and test modes
   allow_ssl_to_be_used_when_in_production_mode: Allow SSL to be used in production mode         
   allowed_ssl_in_production_mode: "SSL will {{not}} be used in production"
@@ -193,7 +193,7 @@ cz:
   available_taxons: "Available Taxons"
   back: Back
   back_to_store: "Zpět na výběr zboží"
-  backordering_is_allowed: "Backordering {{not}} allowed"
+  backordering_is_allowed: "Předobjednávka {{not}} povolena"
   bill_address: "Fakturační adresa"
   billing_address: "Fakturační adresa"
   calculator: Calculator
@@ -206,7 +206,7 @@ cz:
   card_type_is: Card type is
   cart: Košík
   categories: Categories
-  category: Category
+  category: Kategorie
   change: Change
   change_language: "Změna jazyka:"
   charge_total: Poplatky celkem
@@ -259,16 +259,16 @@ cz:
   editing_prototype: "Editing Prototype"
   editing_shipping_category: "Úprava katagorie přepravy"
   editing_shipping_method: "Úprava způsobu přepravy"
-  editing_state: "Editing State"
-  editing_tax_category: "Editing Tax Category"
-  editing_tax_rate: "Editing Tax Rate"
+  editing_state: "Úprava státu"
+  editing_tax_category: "Úprave kategorie DPH"
+  editing_tax_rate: "Úprava sazby DPH"
   editing_user: "Upravit účet"   
-  editing_zone: "Editing Zone"
+  editing_zone: "Úprava oblasti"
   email: Email
   email_address: "Email Address"
   email_server_settings_description: "Nastavení poštovního serveru."
   empty_cart: "Vyprázdnit košík"
-  enable_mail_delivery: Enable Mail Delivery      
+  enable_mail_delivery: Povolit doručování emailů    
   enter_exactly_as_shown_on_card: Please enter exactly as shown on the card
   error: error
   event: Událost
@@ -281,15 +281,15 @@ cz:
   filename: Filename
   final_confirmation: "Final Confirmation"
   first_name: "Jméno"                 
-  flat_percent: "Flat Percent"                  
+  flat_percent: "Paušální sazba"                  
   flat_rate_amount: Amount
-  flat_rate_per_item: "Flat Rate (per item)"
-  flat_rate_per_order: "Flat Rate (per order)"
-  flexible_rate: "Flexible Rate"
+  flat_rate_per_item: "Paušální sazba (za kus)"
+  flat_rate_per_order: "Paušální sazba (za objednávku)"
+  flexible_rate: "Flexibilní sazba"
   forgot_password: "Zapomenuté heslo"
   full_name: "Celé jméno"
   gateway: Způsoby platby
-  gateway_configuration: "Gateway configuration"
+  gateway_configuration: "Nastavení platební brány"
   gateway_error: "Gateway Error"
   gateway_setting_description: "Výběr platební brány a její nastavení."
   general: "General"
@@ -314,7 +314,7 @@ cz:
   invalid_search: "Invalid search criteria."
   inventory: Inventory
   inventory_adjustment: "Inventory Adjustment"
-  inventory_setting_description: "Nastavení zboží, zpětné objednávání, zobrazení stavu skladu"
+  inventory_setting_description: "Nastavení zboží - předobjednávky, zobrazení stavu skladu"
   inventory_settings: "Nastavení zboží"
   issue_number: Issue Number
   item: Název položky
@@ -341,7 +341,7 @@ cz:
   maestro_or_solo_cards: Karty Maestro/Solo
   mail_delivery_enabled: "Mail delivery is enabled"
   mail_delivery_not_enabled: "Doručování e-mailů není nastaveno"
-  mail_server_preferences: Mail Server Preferences
+  mail_server_preferences: Nastavení poštovního serveru
   mail_server_settings: "Nastavení poštovního serveru"
   mark_shipped: "Odesláno dopravcem"
   master_price: "Základní Cena"
@@ -366,20 +366,20 @@ cz:
   new_shipment: "New Shipment"
   new_shipping_category: "Nová kategorie přepravy"
   new_shipping_method: "Nový způsob přepravy"
-  new_state: "New State"
-  new_tax_category: "New Tax Category"
+  new_state: "Nový stát"
+  new_tax_category: "Nová kategorie DPH"
   new_tax_rate: "Přidat sazbu DPH"
   new_taxon: "New Taxon"
   new_taxonomy: "Nové třídění"
   new_user: "Přidat uživatele"
   new_variant: "New Variant"
-  new_zone: "New Zone"
+  new_zone: "Nová oblast"
   next: Další
   no: "No"
   no_items_in_cart: ""
   no_match_found: "No Match Found"
   no_user_found: "No user was found with that email address"
-  none: None
+  none: Žádné
   none_available: "Nedostupný"
   not: not
   on_hand: "Skladem"
@@ -434,13 +434,13 @@ cz:
   product_has_no_description: Product has not description
   product_properties: "Vlastnosti zboží"
   products: Zboží
-  products_with_zero_inventory_display: "Products with a zero inventory will {{not}} be displayed"
+  products_with_zero_inventory_display: "Zboží které není skladem {{not}} zobrazeno"
   properties: Vlastnosti
   property: Property
   prototype: Prototype
   prototypes: Prototypy
   qty: Počet kusů
-  rate: Rate
+  rate: Sazba
   register: Zaregistrovat se jako nový zákazník
   register_or_guest: Způsob přihlášení
   registration: Přihlášení           
@@ -461,16 +461,16 @@ cz:
   sales_total_for_all_orders: "Sales total for all orders"
   sales_totals: "Tržby shrnutí"
   sales_totals_description: "Sales Total For All Orders"
-  save_preferences: Save Preferences           
+  save_preferences: Uložit nastavení          
   search: Hledat
   secure_connection_type: Typ zabezpečeného připojení
   select: Select
   select_from_prototype: "Select From Prototype"
   select_preferred_shipping_option: "Select preferred shipping option"
-  send_copy_of_all_mails_to: Send Copy of All Mails To
+  send_copy_of_all_mails_to: Zasílat kopie všech emailů na
   send_copy_of_orders_mails_to: Send Copy of Order Mails To         
-  send_mails_as: Send Mails As                    
-  send_order_mails_as: Send Order Mails As   
+  send_mails_as: Posílat emaily jako                    
+  send_order_mails_as: Posílat emaily s objednávkou jako  
   server_error: "The server returned an error"  
   settings: Nastavení
   ship: ship
@@ -494,7 +494,7 @@ cz:
   show_deleted: "Zobrazit smazané"
   show_incomplete_orders: "Show Incomplete Orders"
   show_only_complete_orders: "Zobrazit pouze kompletní objednávky"
-  show_out_of_stock_products: "Show out-of-stock products"
+  show_out_of_stock_products: "Zobrazovat zboží které není skladem"
   show_price_inc_vat: "Zobrazit ceny s DPH"
   sign_up: "Sign up"
   site_name: "Název stránky"
@@ -504,20 +504,20 @@ cz:
   smtp_authentication_type: SMTP Autentifikace         
   smtp_domain: SMTP Domény
   smtp_mail_host: SMTP Mail Host                       
-  smtp_password: SMTP Password
+  smtp_password: SMTP Heslo
   smtp_port: SMTP Port          
-  smtp_send_all_emails_as_from_following_address: "Send all mails as from the following address."
-  smtp_send_copy_of_orders_to_this_addresses: "Sends a copy of all order's mails to this address. For multiple addresses, separate with commas."
-  smtp_send_copy_to_this_addresses: "Sends a copy of all outgoing mails to this address. For multiple addresses, separate with commas." 
-  smtp_send_order_mails_as_from_following_address: "Send orders mails as from the following address."
+  smtp_send_all_emails_as_from_following_address: "Pošle všechny emaily z této ardesy."
+  smtp_send_copy_of_orders_to_this_addresses: "Zašle kopii všech emailů s objednávkou na tuto adresu. Při použití více adres je oddělte čárkou.Sends a copy of all order's mails to this address."
+  smtp_send_copy_to_this_addresses: "Zašle kopii všech odchozích emailů na tuto adresu. Při použití více adres je oddělte čárkou." 
+  smtp_send_order_mails_as_from_following_address: "Pošle emaily s objednávkou z této adresy."
   smtp_username: SMTP Username  
   spree:
     date: Datum
     time: Čas                                               
-  ssl_will_be_used_in_development_and_test_modes: "SSL will be used in development and test mode if necessary."
-  ssl_will_be_used_in_production_mode: "SSL will be used in production mode"
-  ssl_will_not_be_used_in_development_and_test_modes: "SSL will not be used in development and test mode if necessary."
-  ssl_will_not_be_used_in_production_mode: "SSL will not be used in production mode"
+  ssl_will_be_used_in_development_and_test_modes: "SSL bude použito v development a testovací verzi když bude nutné."
+  ssl_will_be_used_in_production_mode: "SSL bude použito v produkční verzi"
+  ssl_will_not_be_used_in_development_and_test_modes: "SSL nebude použito v development a testovací verzi když bude nutné."
+  ssl_will_not_be_used_in_production_mode: "SSL nebude požito v produkční verzi"
   start: Od
   start_date: Valid from
   state: Stát
@@ -545,9 +545,9 @@ cz:
   taxon: Taxon
   taxonomies: Způsoby třídění
   taxonomies_setting_description: "Vytvoření a nastavení třídění"
-  taxonomy_edit: "Edit taxonomy"
+  taxonomy_edit: "Úprava třídění"
   taxonomy_tree_error: "The requested change has not been accepted and the tree has been returned to its previous state, please try again."
-  taxonomy_tree_instruction: "* Right click a child in the tree to access the menu for adding, deleting or sorting a child."
+  taxonomy_tree_instruction: "* Kliknutím pravého tlačítka na položku stromu získáte přístup do menu na přidání, smazání a řazení podřízených položek."
   taxons: Třídění
   thank_you_for_your_order: "Děkujeme za Vaši objednávku. Vytiskněte si prosím tuto stránku jako potvrzení Vaší objednávky."
   this_file_language: "Čeština (CZ)"
@@ -576,7 +576,7 @@ cz:
   user_account: User Account
   user_details: "User Details"
   users: Uživatelé
-  value: Value
+  value: Hodnota
   variants: Varianty
   vat: "VAT"           
   version: Version
@@ -592,7 +592,7 @@ cz:
   you_have_been_logged_out: "Byl jste odhlášen."
   your_cart_is_empty: "Košík je prázdný"
   zip: PSČ
-  zone: Zone
+  zone: Oblast
   zone_based: "Zone Based"
   zone_setting_description: "Seznamy zemí, států a oblastí, které mohou být použity v různých výpočtech."
   zones: Oblasti 
@@ -609,3 +609,10 @@ cz:
   shipping_category: Kategorie
   editing_shipping_rate: Úprava sazby poštovného
   shipping_rates_description: Nastavení výpočtu sazeb poštovného
+  datetime:
+    prompts:
+      day: Den
+      month: Měsíc
+      year: Rok
+  mail_queue_not_enabled: Fronta emailů není  povolena
+  enable_mail_queue: Povolit frontu emailů

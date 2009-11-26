@@ -1,0 +1,13 @@
+<%= render :partial => 'admin/shared/configuration_menu' %>
+
+<h1><%= t("new_taxonomy") %></h1>
+
+  <%= link_to t('ext.additional_translation.back_to_list'), { :action => :index } %>
+<% form_for(:taxon, :url => collection_url) do |f| %>
+
+	<%= render :partial => "form", :locals => { :f => f } %>
+
+	<p class="form-buttons">
+	  <%= button t("create") %>
+  </p>
+<% end %>
