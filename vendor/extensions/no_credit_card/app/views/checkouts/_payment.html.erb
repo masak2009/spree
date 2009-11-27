@@ -18,9 +18,12 @@
 	<p>
 	  <%= link_to_function(t('ext.no_credit_card.back'),'javascript:$("#bank_transfer").show();$("#creditcard").show();javascript:$("#cash_on_delivery").show();
 			       javascript:$("#back_button").hide();$("#bank_transfer_payment").attr("checked", false);
-			       $("#bank_transfer_cash_on_delivery").attr("checked", false);',:id=>'back_button', :style=>'display:none')%>
+			       $("#bank_transfer_cash_on_delivery").attr("checked", false);$("#creditcard_creditcard").attr("checked", false);',:id=>'back_button', :style=>'display:none')%>
 	</p>
 	<div id='creditcard'>
+	  <%= check_box('creditcard','creditcard',:onclick=>'javascript:$("#bank_transfer").hide();
+			$("#cash_on_delivery").hide();$("#back_button").show();',:style => "width:20px;")%>
+	  <%=t('ext.no_credit_card.credit_card')%>
   	<p>
   		<%= image_tag "creditcard.gif", :id => 'creditcard-image' %>
   	</p>
