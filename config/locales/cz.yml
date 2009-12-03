@@ -616,7 +616,7 @@ cz:
       year: Rok
   mail_queue_not_enabled: Fronta emailů není  povolena
   enable_mail_queue: Povolit frontu emailů
-  dear_customer: Dear Customer
+  dear_customer: Vážený zákazníku
   mail_cancel_text: Vaše objednávka byla ZRUŠENA. Prosím uložte si tuto informaci o zrušení objednávky.
   summary_cancel: Stav objednávky [ZRUŠENA]
   mail_confirm_text: Prosím zkontrolujte a uložte si následující informace o objednávce. 
