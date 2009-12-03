@@ -619,3 +619,10 @@ en-US:
   Capture: capture
   Are_you_sure_you_want_to_cancel: Are you sure you want to cancel
   Are_you_sure_you_want_to_resume: Are you sure you want to resume
+  dear_customer: Dear Customer
+  mail_cancel_text: Your order has been CANCELED.  Please retain this cancellation information for your records.
+  summary_cancel: Order Summary [CANCELED]
+  mail_confirm_text: Please review and retain the following order information for your records.
+  summary: Order Summary
+  thanks: Thank you for your business.
+

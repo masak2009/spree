@@ -258,7 +258,7 @@ cz:
   editing_property: "Editing Property"
   editing_prototype: "Editing Prototype"
   editing_shipping_category: "Úprava katagorie přepravy"
-  editing_shipping_method: "Úprava způsobu přepravy"
+  editing_shipping_method: "Úprava metody přepravy"
   editing_state: "Úprava státu"
   editing_tax_category: "Úprave kategorie DPH"
   editing_tax_rate: "Úprava sazby DPH"
@@ -365,7 +365,7 @@ cz:
   new_prototype: "New Prototype"
   new_shipment: "New Shipment"
   new_shipping_category: "Nová kategorie přepravy"
-  new_shipping_method: "Nový způsob přepravy"
+  new_shipping_method: "Nová metoda přepravy"
   new_state: "Nový stát"
   new_tax_category: "Nová kategorie DPH"
   new_tax_rate: "Přidat sazbu DPH"
@@ -486,7 +486,7 @@ cz:
   shipping_error: "Shipping Error"
   shipping_instructions: "Shipping Instructions"
   shipping_method: "Způsob přepravy"
-  shipping_methods: "Způsoby přepravy"
+  shipping_methods: "Metody přepravy"
   shipping_methods_description: "Nastavení způsobů přepravy"
   shipping_total: "Shipping Total"
   shop_by_taxonomy: "{{taxonomy}}"
@@ -604,10 +604,10 @@ cz:
   Capture: přijatá
   Are_you_sure_you_want_to_cancel: Opravdu chcete zrušit
   Are_you_sure_you_want_to_resume: Opravdu chcete obnovit objednávku
-  shipping_rates: Sazby poštovného
+  shipping_rates: Poštovní poplatky
   new_shipping_rate: Nová sazba
   shipping_category: Kategorie
-  editing_shipping_rate: Úprava sazby poštovného
+  editing_shipping_rate: Úprava poštovnéhooštovních poplatků
   shipping_rates_description: Nastavení výpočtu sazeb poštovného
   datetime:
     prompts:
@@ -616,3 +616,10 @@ cz:
       year: Rok
   mail_queue_not_enabled: Fronta emailů není  povolena
   enable_mail_queue: Povolit frontu emailů
+  dear_customer: Dear Customer
+  mail_cancel_text: Vaše objednávka byla ZRUŠENA. Prosím uložte si tuto informaci o zrušení objednávky.
+  summary_cancel: Stav objednávky [ZRUŠENA]
+  mail_confirm_text: Prosím zkontrolujte a uložte si následující informace o objednávce. 
+  summary: Stav objednávky
+  thanks: Děkujeme Vám za objednávku.
+
