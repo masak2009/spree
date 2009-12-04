@@ -619,7 +619,7 @@ cz:
   dear_customer: Vážený zákazníku
   mail_cancel_text: Vaše objednávka byla ZRUŠENA. Prosím uložte si tuto informaci o zrušení objednávky.
   summary_cancel: Stav objednávky [ZRUŠENA]
-  mail_confirm_text: Prosím zkontrolujte a uložte si následující informace o objednávce. 
+  mail_confirm_text: Potvrzujeme, že jsme přijali Vaši objednávku. Prosím zkontrolujte a uložte si následující informace. V případě jakýchkoliv nesrovnalostí nás neváhejte kontaktovat.            
   summary: Stav objednávky
   thanks: Děkujeme Vám za objednávku.
 
