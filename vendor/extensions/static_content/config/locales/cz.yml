@@ -1,0 +1,19 @@
+---
+cz:
+    pages: Stránky
+    ext_static_content_static_pages: Statické stránky
+    ext_static_content_static_pages_desc: Uprava stránky WYSIWYG editorem.
+    ext_static_content_title: Titulek
+    ext_static_content_slug: Slug
+    ext_static_content_body: Tělo
+    ext_static_content_new_page: Nová strana
+    ext_static_content_editing_page: Editovat
+    ext_static_content_foreign_link: Externí odkaz (URL)
+    ext_static_content_show_in_header: Ukaž v záhlaví
+    ext_static_content_show_in_footer: Ukaž v zápatí
+    ext_static_content_position: Pozice
+    ext_static_content_visible: Viditelný
+    ext_static_content_confirm_delete: Jste si jistí ?
+    ext_static_content_link: Odkaz
+    ext_static_content_true: Ano
+    ext_static_content_false: Ne
