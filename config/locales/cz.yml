@@ -329,7 +329,7 @@ cz:
   listing_tax_categories: "Seznam kategorií DPH"
   listing_users: "Seznam uživatelů"
   loading: Loading
-  locale_changed: "Locale Changed"
+  locale_changed: "Jazyk byl změněn"
   log_in: "Přihlásit"
   logged_in_as: "Přihlášen"
   logged_in_succesfully: "Jste úspěšně přihlášen."
@@ -351,7 +351,7 @@ cz:
   month: "Month"
   my_account: "Účet"
   my_orders: "Moje objednávky"    
-  name: Název zboží
+  name: Název
   new: Nové
   new_category: "New category"
   new_coupon: Nový kupón
