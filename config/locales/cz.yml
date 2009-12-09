@@ -2,28 +2,28 @@
 cz: 
   a_copy_of_all_mail_will_be_sent_to_the_following_addresses: Kopie všech e-mailů se zasílají na následující adresy
   abbreviation: Zkratka
-  access_denied: "Access Denied"
+  access_denied: "Přístup zamítnut"
   account: Účet
   account_updated: "Učet byl aktualizován!"        
   action: Akce
   actions: 
     cancel: Cancel
-    create: Create
+    create: Vytvořit
     destroy: Destroy
-    list: List
+    list: Seznam
     listing: Seznam
-    new: New
+    new: Nový
     update: Update
   activerecord: 
     attributes: 
       address: 
-        address1: Address
+        address1: Adresa
         address2: "Address (contd.)"
         city: City
-        firstname: "First Name"
-        lastname: "Last Name"
-        phone: Phone
-        zipcode: "Zip Code"
+        firstname: "Jméno"
+        lastname: "Příjmení"
+        phone: Telefon
+        zipcode: "PSČ"
       country: 
         iso: ISO
         iso3: ISO3
@@ -31,65 +31,65 @@ cz:
         name: Name
         numcode: "ISO Code"
       creditcard: 
-        cc_type: Type
-        month: Month
-        number: Number
-        verification_value: "Verification Value"
-        year: Year
+        cc_type: Typ
+        month: Měsíc
+        number: Číslo
+        verification_value: "Verifikační Hodnota"
+        year: Rok
       inventory_unit: 
-        state: State
+        state: Stát
       line_item: 
         price: Cena
-        quantity: Quantity
+        quantity: Množství
       order: 
         checkout_complete: "Checkout Complete"
-        ip_address: "IP Address"
+        ip_address: "IP Adresa"
         item_total: "Item Total"
-        number: Number
-        special_instructions: "Special Instructions"
-        state: State
-        total: Total
+        number: Číslo
+        special_instructions: "Speciální Instrukce"
+        state: Stát
+        total: Celkem
       product: 
-        available_on: "Available On"
-        description: Description
-        master_price: "Master Price"
-        name: Name
-        on_hand: "On Hand"
-        shipping_category: "Shipping Category"
-        tax_category: "Tax Category"
+        available_on: "Dostupný od"
+        description: Popis
+        master_price: "Hlavní cena"
+        name: Název
+        on_hand: "Na skladě"
+        shipping_category: "Kategorie přepravy"
+        tax_category: "Kategorie daně"
       property: 
-        name: Name
-        presentation: Presentation
+        name: Název
+        presentation: Reprezentace
       prototype: 
-        name: Name
+        name: Název
       role: 
-        name: Name
+        name: Název
       state: 
-        abbr: Abbreviation
-        name: Name
+        abbr: Zkratka
+        name: Název
       tax_category: 
-        description: Description
-        name: Name
+        description: Popis
+        name: Název
       tax_rate: 
-        amount: Rate        
+        amount: Sazba        
       taxon: 
-        name: Name
+        name: Název
         permalink: Permalink
-        position: Position
+        position: Pozice
       taxonomy: 
-        name: Name
+        name: Název
       user: 
         email: Email
       variant: 
-        depth: Depth
-        height: Height
+        depth: Hloubka
+        height: Výška
         price: Cena
         sku: SKU
-        weight: Weight
-        width: Width
+        weight: Váha
+        width: Šířka
       zone: 
-        description: Description
-        name: Name
+        description: Popis
+        name: Název
     models: 
       address: 
         one: Address
@@ -157,106 +157,106 @@ cz:
       zone: 
         one: Zone
         other: Zones
-  add: Add
+  add: Přidat
   add_category: "Add Category"
   add_country: "Přidat zemi"
   add_option_type: "Add Option Type"
   add_option_types: "Add Option Types"
   add_option_value: "Add Option Value"
   add_product_properties: "Add Product Properties"
-  add_state: "Add State"
+  add_state: "Přidat Stát"
   add_to_cart: "Přidat do košíku"
-  add_zone: "Add Zone"
+  add_zone: "Přidat oblast"
   address: Adresa
-  address_information: "Address Information"
-  adjustment: Adjustment
+  address_information: "Informace o adrese"
+  adjustment: Přizpůsobení
   administration: Administrace
-  all: "All"
+  all: "Všechno"
   allow_backorders: "Povolit předobjednávky"
-  allow_ssl_to_be_used_when_in_developement_and_test_modes: Allow SSL to be used when in development and test modes
-  allow_ssl_to_be_used_when_in_production_mode: Allow SSL to be used in production mode         
-  allowed_ssl_in_production_mode: "SSL will {{not}} be used in production"
+  allow_ssl_to_be_used_when_in_developement_and_test_modes: Povolit SSL pro použití v development a test módech
+  allow_ssl_to_be_used_when_in_production_mode: Povolit SSL pro použití v production módech         
+  allowed_ssl_in_production_mode: "SSL bude {{not}} použito v produkční verzi"
   already_registered: Přihlásit se jako registrovaný zákazník
-  alternative_phone: Alternative Phone
+  alternative_phone: Alternativní tel číslo
   amount: Částka
-  are_you_sure: "Are you sure?"
-  are_you_sure_category: "Are you sure you want to delete this category?"
-  are_you_sure_delete: "Are you sure you want to delete this record?"
-  are_you_sure_delete_image: "Are you sure you want to delete this image?"
-  are_you_sure_option_type: "Are you sure you want to delete this option type?"
+  are_you_sure: "Jste si jistý/á?"
+  are_you_sure_category: "Jste si jistý/á že chcete smazat tuto kategorii?"
+  are_you_sure_delete: "Jste si jistý/á že chcete smazat tento záznam?"
+  are_you_sure_delete_image: "Jste si jistý/á že chcete smazat tento obrázek?"
+  are_you_sure_option_type: "Jste si jistý/á že chcete smazat tento typ vlastnosti?"
   are_you_sure_you_want_to_capture: "Jste si jistí že je transkace přijatá?"
   assign_taxon: "Assign Taxon" 
   assign_taxons: "Assign Taxons"
-  authorization_failure: "Authorization Failure"
-  authorized: Authorized
+  authorization_failure: "Autorizace selhala"
+  authorized: Autorizován
   available_on: "K dispozici od"
-  available_taxons: "Available Taxons"
-  back: Back
+  available_taxons: "Dostupné Taxons"
+  back: Zpět
   back_to_store: "Zpět na výběr zboží"
-  backordering_is_allowed: "Předobjednávka {{not}} povolena"
+  backordering_is_allowed: "Předobjednávka povolena {{not}}"
   bill_address: "Fakturační adresa"
   billing_address: "Fakturační adresa"
-  calculator: Calculator
-  calculator_settings_warning: "If you are changing the calculator type, you must save first before you can edit the calculator settings"
+  calculator: Kalkulátor
+  calculator_settings_warning: "Když měníte typ kalkulátoru, musíte nejdřív uložit změnu, než začnete editovt vlastnosti kalkulátoru"
   cancel: Zrušit
   canceled: Zrušeno
   capture: přijatá
   card_code: "kód karty"
   card_number: "číslo karty"
-  card_type_is: Card type is
+  card_type_is: Typ karty je
   cart: Košík
-  categories: Categories
+  categories: Kategorie
   category: Kategorie
-  change: Change
+  change: Změnit
   change_language: "Změna jazyka:"
   charge_total: Poplatky celkem
-  charged: Charged
+  charged: Účtováno
   checkout: Potvrdit
   city: Město
   code: Kód
   combine: Kombinovatelný
   comp_order: "Comp Order"
   comp_order_confirmation: "Customer will not be charged.  Are you sure you want to comp this order?"
-  complete_list: "Complete List"
+  complete_list: "Celý Seznam"
   configuration: Nastavení
   configuration_options: "Možnosti nastavení"
   configurations: Nastavení
   confirm: Potvrzení objednávky
-  confirm_delete: "Confirm Deletion"
-  confirm_password: "Password Confirmation"
+  confirm_delete: "Potvrzení vymazání"
+  confirm_password: "Potvrzení hesla"
   continue: Pokračovat
   continue_shopping: "Pokračovat v nákupu"
   copy_all_mails_to: Kopie e-mailů poslat na
   country: Země
   country_based: "Country Based"
-  coupon: Coupon                                                                             
+  coupon: Kupón                                                                             
   coupons: Slevové kupóny
-  coupons_description: Nastavení slevových kuponů
+  coupons_description: Nastavení slevových kupónů
   create: Pokračovat
   create_a_new_account: "Vytvořit nový učet"
   create_user_account: Vytvořit nový účet
-  created_successfully: "Created Successfully"
+  created_successfully: "Úspěšne vytvořeno"
   credit_card: "Kreditní karta"
   credit_card_capture_complete: "Kreditní karta byla přijatá"
   credit_card_payment: "Platba kreditní kartou"
   credit_total: Credit celkem
-  creditcard: Creditcard
-  current: Current
+  creditcard: Kreditní karta
+  current: Aktuální
   customer: Zákazník
   date_range: "Datum rozmezí"
   delete: Smazat
-  depth: Depth
+  depth: Hloubka
   description: Popis
   destroy: Destroy
-  display: Display
+  display: Zobrazení
   edit: Editace
-  editing_category: "Editing Category"
+  editing_category: "Editace kategorie"
   editing_coupon: Úprava kupónu
-  editing_option_type: "Editing Option Type"
-  editing_option_types: "Editing Option Types"
-  editing_product: "Editing Product"
-  editing_property: "Editing Property"
-  editing_prototype: "Editing Prototype"
+  editing_option_type: "Editace typu možnosti"
+  editing_option_types: "Editace typů možností"
+  editing_product: "Editace produktu"
+  editing_property: "Editace vlastností"
+  editing_prototype: "Editace prototypu"
   editing_shipping_category: "Úprava katagorie přepravy"
   editing_shipping_method: "Úprava metody přepravy"
   editing_state: "Úprava státu"
@@ -265,24 +265,24 @@ cz:
   editing_user: "Upravit účet"   
   editing_zone: "Úprava oblasti"
   email: Email
-  email_address: "Email Address"
+  email_address: "Emailová adresa"
   email_server_settings_description: "Nastavení poštovního serveru."
   empty_cart: "Vyprázdnit košík"
   enable_mail_delivery: Povolit doručování emailů    
-  enter_exactly_as_shown_on_card: Please enter exactly as shown on the card
-  error: error
+  enter_exactly_as_shown_on_card: Zadejte přesně to, co vidíte na kartě
+  error: chyba
   event: Událost
   existing_customer: "Registrovaný zákazník"
   expiration: "Platnost karty do:"
-  expiration_month: "Expiration Month"
-  expiration_year: "Expiration Year"
-  extension: Extension
-  extensions: Extensions
-  filename: Filename
-  final_confirmation: "Final Confirmation"
+  expiration_month: "Expirace Měsíc"
+  expiration_year: "Expirace Rok"
+  extension: Rozšíření
+  extensions: Rozšíření
+  filename: Jmého souboru
+  final_confirmation: "Finální potvrzení"
   first_name: "Jméno"                 
   flat_percent: "Paušální sazba"                  
-  flat_rate_amount: Amount
+  flat_rate_amount: Částka
   flat_rate_per_item: "Paušální sazba (za kus)"
   flat_rate_per_order: "Paušální sazba (za objednávku)"
   flexible_rate: "Flexibilní sazba"
@@ -290,40 +290,40 @@ cz:
   full_name: "Celé jméno"
   gateway: Způsoby platby
   gateway_configuration: "Nastavení platební brány"
-  gateway_error: "Gateway Error"
+  gateway_error: "Chyba brány"
   gateway_setting_description: "Výběr platební brány a její nastavení."
   general: "General"
   general_settings: "Hlavní nastavení"
   general_settings_description: "Hlavní nastavení obchodu."
   google_analytics: "Google Analytics"
-  google_analytics_active: "Active"
-  google_analytics_create: "Create New Google Analytics Account"
+  google_analytics_active: "Aktivní"
+  google_analytics_create: "Vytvořit nový Google Analytics účet"
   google_analytics_id: "Analytics ID"
-  google_analytics_new: "New Google Analytics Account"
-  google_analytics_setting_description: "Manage Google Analytics ID" 
+  google_analytics_new: "Nový Google Analytics Účet"
+  google_analytics_setting_description: "Správa Google Analytics ID" 
   guest_user_account: Přihlásit se jako host
-  height: Height
-  hello_user: "Hello User"
+  height: Výška
+  hello_user: "Ahoj uživateli"
   history: Historie
   home: "Domů"
   icons_by: "Icons by"
-  image: Image
+  image: Obrázek
   images: Obrázky
-  images_for: "Images for"
+  images_for: "Obrázky pro"
   in_progress: "In Progress"
-  invalid_search: "Invalid search criteria."
-  inventory: Inventory
-  inventory_adjustment: "Inventory Adjustment"
+  invalid_search: "Nesprávné vyhledávací kritéria."
+  inventory: Inventář
+  inventory_adjustment: "Přizpůsobení inventáře"
   inventory_setting_description: "Nastavení zboží - předobjednávky, zobrazení stavu skladu"
   inventory_settings: "Nastavení zboží"
-  issue_number: Issue Number
+  issue_number: Číslo případu
   item: Název položky
   item_description: "Název položky"
   item_total: "Zboží celkem"
   last_name: "Příjmení"
   list: List
   listing_categories: "Listing Categories"
-  listing_option_types: "Listing Option Types"
+  listing_option_types: "Seznam typů možností"
   listing_orders: "Seznam objednávek"
   listing_reports: "Seznam reportů"
   listing_tax_categories: "Seznam kategorií DPH"
@@ -339,7 +339,7 @@ cz:
   login_name: Login
   logout: Odhlásit  
   maestro_or_solo_cards: Karty Maestro/Solo
-  mail_delivery_enabled: "Mail delivery is enabled"
+  mail_delivery_enabled: "Doručování mailů je zapnuto"
   mail_delivery_not_enabled: "Doručování e-mailů není nastaveno"
   mail_server_preferences: Nastavení poštovního serveru
   mail_server_settings: "Nastavení poštovního serveru"
@@ -348,22 +348,22 @@ cz:
   meta_description: "Meta Description"
   meta_keywords: "Meta Keywords"
   metadata: "Metadata"
-  month: "Month"
+  month: "Měsíc"
   my_account: "Účet"
   my_orders: "Moje objednávky"    
   name: Název
   new: Nové
-  new_category: "New category"
+  new_category: "Nová kategorie"
   new_coupon: Nový kupón
   new_credit_card_payment: "Nová platba creditní kartou"
   new_customer: "Vytvoření nového zákazníka"
-  new_image: "New Image"
-  new_option_type: "New Option Type"
-  new_option_value: "New Option Value"
+  new_image: "Nový obrázek"
+  new_option_type: "Nový typ možnosti"
+  new_option_value: "Nová položka možnosti"
   new_product: "Přidat zboží"
   new_property: "Přidat vlastnost"
-  new_prototype: "New Prototype"
-  new_shipment: "New Shipment"
+  new_prototype: "Nový prototyp"
+  new_shipment: "Nová přeprava"
   new_shipping_category: "Nová kategorie přepravy"
   new_shipping_method: "Nová metoda přepravy"
   new_state: "Nový stát"
@@ -372,29 +372,29 @@ cz:
   new_taxon: "New Taxon"
   new_taxonomy: "Nové třídění"
   new_user: "Přidat uživatele"
-  new_variant: "New Variant"
+  new_variant: "Nová varianta"
   new_zone: "Nová oblast"
   next: Další
-  no: "No"
+  no: "Ne"
   no_items_in_cart: ""
-  no_match_found: "No Match Found"
-  no_user_found: "No user was found with that email address"
+  no_match_found: "Nenalezeny žádné shody"
+  no_user_found: "Nebyl nalezen žádný uživatel s touto emailovou adresou"
   none: Žádné
   none_available: "Nedostupný"
   not: not
   on_hand: "Skladem"
-  operation: Operation
-  option_Values: "Option Values"
+  operation: Operace
+  option_Values: "Položka možnosti"
   option_types: "Typy možností"
-  option_values: "Option Values"
-  options: Options
+  option_values: "Položka možnosti"
+  options: Nastavení
   or: nebo
   order: Objednávka
   order_confirmation_note: ""
   order_date: "Datum objednání"
   order_details: "Detail objednávky"
   order_email_resent: "Email s objednávkou byl odeslán"
-  order_not_in_system: That order number is not valid on this site.
+  order_not_in_system: Tato objednávka není v našem systému.
   order_number: Objednávka
   order_operation_authorize: Oprávněná
   order_processed_successfully: "Vaše objednávka byla úspěšně odeslána"
@@ -402,42 +402,42 @@ cz:
   order_total_message: "The total amount charged to your card will be"
   order_updated: "Objednávka byla upravena"
   orders: Objednávky
-  out_of_stock: "Out of Stock"
+  out_of_stock: "Není na skladě"
   overview: Přehled
   paid: Zaplaceno
   parent_category: "Parent Category"
   password: Heslo
-  password_reset_instructions: "Password Reset Instructions"
-  password_reset_instructions_are_mailed: "Instructions to reset your password have been emailed to you. Please check your email."
-  password_reset_token_not_found: "We're sorry, but we could not locate your account. If you are having issues try copying and pasting the URL from your email into your browser or restarting the reset password process."    
-  password_updated: "Password successfully updated"  
-  path: Path      
+  password_reset_instructions: "Instrukce pro resetování hesla"
+  password_reset_instructions_are_mailed: "Instrukce pro resetování hesla byly odeslány na Váš email. Zkontrolujte prosím svůj email."
+  password_reset_token_not_found: "Omlouváme se, ale Váš účet se nedá v databázi najít. Zkuste zkopírovat a vložit URL z emailu do Vašeho prohlížeče nebo zkusit znovu proces s resetováním hesla."    
+  password_updated: "Heslo bylo aktualizováno"  
+  path: Cesta      
   pay: placeno
-  payment: Payment
+  payment: Platba
   payment_gateway: "Platební brána"
   payment_information: "Způsob platby"
   payments: Platby
   phone: Telefon
   place_order: Odeslat objednávku        
-  please_create_user: "Please create a user account"     
+  please_create_user: "Prosím vytvořte si uživatelský účet"     
   powered_by: "Powered by"
-  presentation: Presentation
+  presentation: Prezentace
   previous: Předchozí
   price: Cena
-  problem_authorizing_card: "Problem authorizing credit card"
+  problem_authorizing_card: "Problem s authorizací creditní karty"
   problem_capturing_card: "Problem capturing credit card"
-  problems_processing_order: "We had problems processing your order"
+  problems_processing_order: "Vyskytl se problém se spracováním Vaší objednávky"
   proceed_as_guest: "Pokračovat jako host"
-  process: Process
-  product: Product
+  process: Proces
+  product: Produkt
   product_details: "Podrobnosti o zboží"
-  product_has_no_description: Product has not description
+  product_has_no_description: Product nemá žádný popis
   product_properties: "Vlastnosti zboží"
   products: Zboží
-  products_with_zero_inventory_display: "Zboží které není skladem {{not}} zobrazeno"
+  products_with_zero_inventory_display: "Zboží které neni {{not}} skladem zobrazeno"
   properties: Vlastnosti
-  property: Property
-  prototype: Prototype
+  property: Vlastnost
+  prototype: Prototyp
   prototypes: Prototypy
   qty: Počet kusů
   rate: Sazba
@@ -445,58 +445,58 @@ cz:
   register_or_guest: Způsob přihlášení
   registration: Přihlášení           
   remember_me: "Zapamatovat"
-  remove: Remove
+  remove: Odstranit
   reports: Reporty
-  required_for_solo_and_maestro: Required for Solo and Maestro cards.
+  required_for_solo_and_maestro: Vyžadováno pro Solo a Maestro karty.
   resend: Znovu odeslat
   reset_password: "Poslat zapomenuté heslo"
   response_code: "Response Code"  
   resume: Obnovit objednávku
-  resumed: Resumed
-  return: return
-  returned: Returned
+  resumed: Obnoveno
+  return: vrátit
+  returned: Vráceno
   roles: Role
   sales_tax: "Sales Tax"
   sales_total: "Tržba celkem"
-  sales_total_for_all_orders: "Sales total for all orders"
+  sales_total_for_all_orders: "Prodeje celkem za všechny objednávky"
   sales_totals: "Tržby shrnutí"
-  sales_totals_description: "Sales Total For All Orders"
+  sales_totals_description: "Prodeje celkem za všechny objednávky"
   save_preferences: Uložit nastavení          
   search: Hledat
   secure_connection_type: Typ zabezpečeného připojení
   select: Select
-  select_from_prototype: "Select From Prototype"
-  select_preferred_shipping_option: "Select preferred shipping option"
+  select_from_prototype: "Vybrat z Prototypu"
+  select_preferred_shipping_option: "Vyberte preferovanou volbu dopravy"
   send_copy_of_all_mails_to: Zasílat kopie všech emailů na
-  send_copy_of_orders_mails_to: Send Copy of Order Mails To         
+  send_copy_of_orders_mails_to: Zasílat kopie objednávkových emailů na         
   send_mails_as: Posílat emaily jako                    
   send_order_mails_as: Posílat emaily s objednávkou jako  
-  server_error: "The server returned an error"  
+  server_error: "Server vrátil chybu"  
   settings: Nastavení
   ship: ship
   ship_address: "Doručovací adresa"
   shipment: Doprava
   shipment_number: "Zásilka #"
-  shipped: Shipped
+  shipped: Odesláno
   shipping: Doprava
   shipping_address: "Dodací adresa"
   shipping_categories: "Kategorie přepravy"
   shipping_categories_description: "Nastavení kategorie přepravy, identifikace zboží, zda bylo posláno, jakým způsobem"
   shipping_cost: Cena
-  shipping_error: "Shipping Error"
-  shipping_instructions: "Shipping Instructions"
+  shipping_error: "Chyba při zpracování dopravy"
+  shipping_instructions: "Instrukce pro přepravce"
   shipping_method: "Způsob přepravy"
   shipping_methods: "Metody přepravy"
   shipping_methods_description: "Nastavení způsobů přepravy"
-  shipping_total: "Shipping Total"
+  shipping_total: "Přepravné celkem"
   shop_by_taxonomy: "{{taxonomy}}"
   shopping_cart: "Nákupní košík"
   show_deleted: "Zobrazit smazané"
-  show_incomplete_orders: "Show Incomplete Orders"
+  show_incomplete_orders: "Zobrazit nedokončené objednávky"
   show_only_complete_orders: "Zobrazit pouze kompletní objednávky"
   show_out_of_stock_products: "Zobrazovat zboží které není skladem"
   show_price_inc_vat: "Zobrazit ceny s DPH"
-  sign_up: "Sign up"
+  sign_up: "Registrovat se"
   site_name: "Název stránky"
   site_url: "URL stránek"
   sku: Kód zboží
@@ -507,7 +507,7 @@ cz:
   smtp_password: SMTP Heslo
   smtp_port: SMTP Port          
   smtp_send_all_emails_as_from_following_address: "Pošle všechny emaily z této ardesy."
-  smtp_send_copy_of_orders_to_this_addresses: "Zašle kopii všech emailů s objednávkou na tuto adresu. Při použití více adres je oddělte čárkou.Sends a copy of all order's mails to this address."
+  smtp_send_copy_of_orders_to_this_addresses: "Zašle kopii všech emailů s objednávkou na tuto adresu. Při použití více adres je oddělte čárkou."
   smtp_send_copy_to_this_addresses: "Zašle kopii všech odchozích emailů na tuto adresu. Při použití více adres je oddělte čárkou." 
   smtp_send_order_mails_as_from_following_address: "Pošle emaily s objednávkou z této adresy."
   smtp_username: SMTP Username  
@@ -519,7 +519,7 @@ cz:
   ssl_will_not_be_used_in_development_and_test_modes: "SSL nebude použito v development a testovací verzi když bude nutné."
   ssl_will_not_be_used_in_production_mode: "SSL nebude požito v produkční verzi"
   start: Od
-  start_date: Valid from
+  start_date: Validní od
   state: Stát
   state_based: "State Based"
   state_setting_description: "Aplikace seznamu států/provincií přiřazené ke každé zemi."
@@ -540,55 +540,55 @@ cz:
   tax_rates_description: Nastavení sazeb DPH.
   tax_settings: "Nastavení DPH"
   tax_settings_description: Základní nastavení sazeb DPH.
-  tax_total: "Tax Total"
-  tax_type: "Tax Type"
+  tax_total: "Daň celkem"
+  tax_type: "Typ daně"
   taxon: Taxon
   taxonomies: Způsoby třídění
   taxonomies_setting_description: "Vytvoření a nastavení třídění"
   taxonomy_edit: "Úprava třídění"
-  taxonomy_tree_error: "The requested change has not been accepted and the tree has been returned to its previous state, please try again."
+  taxonomy_tree_error: "Požadovaná změna nebyla akceptována a strom byl navrácen do přechozího stavu. Prosím zkuste to znovu."
   taxonomy_tree_instruction: "* Kliknutím pravého tlačítka na položku stromu získáte přístup do menu na přidání, smazání a řazení podřízených položek."
   taxons: Třídění
   thank_you_for_your_order: "Děkujeme za Vaši objednávku. Vytiskněte si prosím tuto stránku jako potvrzení Vaší objednávky."
   this_file_language: "Čeština (CZ)"
   thumbnail: "Thumbnail"
-  to_add_variants_you_must_first_define: "To add variants, you must first define"
+  to_add_variants_you_must_first_define: "Pro přidaní varianty, nejdřív musíte definovat"
   total: Celkem
   tracking: Tracking
   transaction: Transakce
-  tree: Tree
-  try_again: "Try Again"     
+  tree: Strom
+  try_again: "Zkuste to znovu"     
   type: Typ
-  unable_ship_method: "Unable to generate shipping methods due to a server error."
-  unable_to_authorize_credit_card: "Unable to Authorize Credit Card"
+  unable_ship_method: "Nemohu generovat metody přepravy, protože na serveru se vyskytla chyba."
+  unable_to_authorize_credit_card: "Nemohu authorizovat kreditní kartu"
   unable_to_capture_credit_card: "Unable to Capture Credit Card"
-  unable_to_save_order: "Unable to Save Order"
+  unable_to_save_order: "Nemohu uložit objednávku"
   unrecognized_card_type: Nerozpoznaný druh karty
   update: Aktualizovat
-  update_password: "Update my password and log me in"                    
-  updated_successfully: "Updated Successfully"
+  update_password: "Aktualizovat heslo a přihlasit"                    
+  updated_successfully: "Aktualizováno úspěšně"
   updating: Updating
   usage_limit: Limit použití
-  use_as_shipping_address: Use as Shipping Address
+  use_as_shipping_address: Použít adresu pro doručení
   use_billing_address: Použít fakturační adresu
-  use_different_shipping_address: "Use Different Shipping Address"
+  use_different_shipping_address: "Použít rozdílnou doručovací adresu"
   user: Uživatel
-  user_account: User Account
-  user_details: "User Details"
+  user_account: Uživatelský účet
+  user_details: "Detail uživatele"
   users: Uživatelé
   value: Hodnota
   variants: Varianty
   vat: "VAT"           
-  version: Version
+  version: Verze
   website: Website
-  weight: Weight
-  welcome_to_sample_store: "Welcome to the sample store"
+  weight: Váha
+  welcome_to_sample_store: "Vítejte v ukázkovém obchodě"
   what_is_a_cvv: "Co je (CVV) Credit Card Code?"
-  what_is_this: "What's This?"
+  what_is_this: "Coje to?"
   whats_this: "Co to je?"
-  width: Width
-  year: "Year"
-  yes: "Yes"
+  width: Šířka
+  year: "Rok"
+  yes: "ano"
   you_have_been_logged_out: "Byl jste odhlášen."
   your_cart_is_empty: "Košík je prázdný"
   zip: PSČ
