@@ -18,11 +18,11 @@ class NoCreditCardExtension < Spree::Extension
     #This Method override save of Payment - by credit card or by bank transfer or cash on delivery
     CheckoutsController.class_eval do
       update.after do
-        if params[:bank_transfer]
-          if params[:bank_transfer][:payment] == "1"
+        if params[:payment_method]
+          if params[:payment_method] == "bank_transfer"
             BankTransfer.create(:order_id => @order.id)
             @order.complete
-          elsif params[:bank_transfer][:cash_on_delivery] == "1"
+          elsif params[:payment_method] == "cash_on_delivery"
             CashOnDelivery.create(:order_id => @order.id)            
             @order.complete
           end

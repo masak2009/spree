@@ -1,32 +1,41 @@
 <% checkout_form.fields_for :creditcard do |creditcard_form| %> 
   <h2><%= t("payment_information") %></h2>
   <div class="inner">
+    <p id='set_payment_fill' style="display: none;">Je treba neco zaskrtnout</p>
 	<p id='bank_transfer'>
-	  <%= check_box('bank_transfer','payment', :onclick=>'javascript:$("#cash_on_delivery").hide();
-			$("#creditcard").hide();$("#back_button").show();',:style => "width:20px;")%>
-	  <%=t('ext.no_credit_card.bank_transfer')%>
-	  <br/><br/>
-	  <%=t('ext.no_credit_card.bank_account_sentence')%>: <%=Spree::Config[:bank_account]%>. <%=t('ext.no_credit_card.variable_symbol')%>: <%=@order.number%>.
-	</p>
+  <%= radio_button_tag('payment_method','bank_transfer', false,  :class => 'required', :onclick=>'javascript:$("#cash_on_delivery").hide();
+    $("#creditcard").hide();$("#bank_transfer_info").show();$("#back_button").show();$("#creditcard_check").hide();',:style => "width:20px;")%>
+    <%=t('ext.no_credit_card.bank_transfer')%>
+    </p>
+	<div id='bank_transfer_info' style="display:none;">
+	  <%=t('ext.no_credit_card.bank_account_sentence')%>: <%=Spree::Config[:bank_account]%>. <%=t('ext.no_credit_card.variable_symbol')%>: <%=@order.number%>.<br/><br/>
+  </div>
 
-	</p>
+	
 	<p id='cash_on_delivery'>
-	  <%= check_box('bank_transfer','cash_on_delivery',:onclick=>'javascript:$("#bank_transfer").hide();
-			$("#creditcard").hide();$("#back_button").show();',:style => "width:20px;")%>
+	  <%= radio_button_tag('payment_method','cash_on_delivery', false, :onclick=>'javascript:$("#bank_transfer").hide();
+    $("#creditcard").hide();$("#creditcard_check").hide();$("#back_button").show();',:style => "width:20px;" )%>
 	  <%=t('ext.no_credit_card.cash_on_delivery')%>
 	</p>
 	<p>
-	  <%= link_to_function(t('ext.no_credit_card.back'),'javascript:$("#bank_transfer").show();$("#creditcard").show();javascript:$("#cash_on_delivery").show();
-			       javascript:$("#back_button").hide();$("#bank_transfer_payment").attr("checked", false);
-			       $("#bank_transfer_cash_on_delivery").attr("checked", false);$("#creditcard_creditcard").attr("checked", false);',:id=>'back_button', :style=>'display:none')%>
-	</p>
-	<div id='creditcard'>
-	  <%= check_box('creditcard','creditcard',:onclick=>'javascript:$("#bank_transfer").hide();
-			$("#cash_on_delivery").hide();$("#back_button").show();',:style => "width:20px;")%>
-	  <%=t('ext.no_credit_card.credit_card')%>
+	  <%= link_to_function(t('ext.no_credit_card.back'),'javascript:$("#bank_transfer").show();$("#creditcard").hide();javascript:$("#cash_on_delivery").show();javascript:$("#creditcard_check").show();
+			       javascript:$("#back_button").hide();$("#bank_transfer_info").hide();$("#payment_method_bank_transfer").attr("checked", false);
+			       $("#payment_method_cash_on_delivery").attr("checked", false);$("#payment_method_creditcard").attr("checked", false);',:id=>'back_button', :style=>'display:none') %>
+             </p>
+  <div id='creditcard_check'>
+    <p>
+
+	    <%= radio_button_tag ('payment_method','creditcard', false,:onclick=>'javascript:$("#bank_transfer").hide();
+			$("#cash_on_delivery").hide();$("#back_button").show();$("#creditcard").show();',:style => "width:20px;")%>
+	    <%=t('ext.no_credit_card.credit_card')%>
+    </p>
   	<p>
   		<%= image_tag "creditcard.gif", :id => 'creditcard-image' %>
-  	</p>
+    </p>
+    <br />
+    <br />
+  </div>   
+	<div id='creditcard' style="display:none;">
   	<p>
   		<label for=""><%= t("card_number") %></label>
 		<%= creditcard_form.text_field :number, :size=> 19, :max_length => 19, :class => 'required' -%><span class="req">*</span>
@@ -61,7 +70,7 @@
   	</p>
 	</div>
   	<div class="form-buttons">
-  		<input id="continue_payment" type="button" class="button primary" value="<%=t("continue")%>"/>
+  		<input id="continue_payment" type="button" class="button primary"  value="<%=t("continue")%>"/>
   	</div>
   	<%= creditcard_form.hidden_field :first_name -%>
     <%= creditcard_form.hidden_field :last_name -%>  	
