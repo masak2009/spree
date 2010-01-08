@@ -1,9 +1,9 @@
 <% checkout_form.fields_for :creditcard do |creditcard_form| %> 
   <h2><%= t("payment_information") %></h2>
   <div class="inner">
-    <p id='set_payment_fill' style="display: none;">Je treba neco zaskrtnout</p>
+    <p id='set_payment_fill' style="display: none;" class="status"></p>
 	<p id='bank_transfer'>
-  <%= radio_button_tag('payment_method','bank_transfer', false,  :class => 'required', :onclick=>'javascript:$("#cash_on_delivery").hide();
+  <%= radio_button_tag('payment_method','bank_transfer', false,  :class => 'payment_check', :onclick=>'javascript:$("#cash_on_delivery").hide();
     $("#creditcard").hide();$("#bank_transfer_info").show();$("#back_button").show();$("#creditcard_check").hide();',:style => "width:20px;")%>
     <%=t('ext.no_credit_card.bank_transfer')%>
     </p>
@@ -13,7 +13,7 @@
 
 	
 	<p id='cash_on_delivery'>
-	  <%= radio_button_tag('payment_method','cash_on_delivery', false, :onclick=>'javascript:$("#bank_transfer").hide();
+	  <%= radio_button_tag('payment_method','cash_on_delivery', false, :class => 'payment_check', :onclick=>'javascript:$("#bank_transfer").hide();
     $("#creditcard").hide();$("#creditcard_check").hide();$("#back_button").show();',:style => "width:20px;" )%>
 	  <%=t('ext.no_credit_card.cash_on_delivery')%>
 	</p>
@@ -25,7 +25,7 @@
   <div id='creditcard_check'>
     <p>
 
-	    <%= radio_button_tag ('payment_method','creditcard', false,:onclick=>'javascript:$("#bank_transfer").hide();
+	    <%= radio_button_tag ('payment_method','creditcard', false, :class => 'payment_check', :onclick=>'javascript:$("#bank_transfer").hide();
 			$("#cash_on_delivery").hide();$("#back_button").show();$("#creditcard").show();',:style => "width:20px;")%>
 	    <%=t('ext.no_credit_card.credit_card')%>
     </p>
@@ -34,7 +34,7 @@
     </p>
     <br />
     <br />
-  </div>   
+  </div>
 	<div id='creditcard' style="display:none;">
   	<p>
   		<label for=""><%= t("card_number") %></label>

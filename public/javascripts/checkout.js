@@ -7,6 +7,25 @@ $(function() {
   get_states();
   $('input#checkout_creditcard_number').blur(set_card_validation);
   
+jQuery.validator.addMethod("payment_check", function(value, element) {
+var payment = 0
+var the_list_array = []
+the_list_array = $("#payment_method_bank_transfer:checked");
+if (the_list_array.length > 0) {
+  payment = 1
+}
+the_list_array = $("#payment_method_cash_on_delivery:checked");
+if (the_list_array.length > 0) {
+  payment = 1
+}
+the_list_array = $("#payment_method_creditcard:checked");
+if (the_list_array.length > 0) {
+  payment = 1
+}
+return payment == 1;
+},
+"Musíte zvolit jednu z možností platby.");
+
   // hook up the continue buttons for each section
   for(var i=0; i < regions.length; i++) {     
     var section = regions[i];                          
