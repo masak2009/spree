@@ -146,7 +146,7 @@
           :empty               => "nesmí být prázdný/é",
           :blank               => "je povinná položka", # alternate formulation: "is required"
           :too_long            => "je příliš dlouhá/ý (max. {{count}} znaků)",
-          :too_short           => "je příliš krátký/á (min. {{count}} znaků)",
+          :too_short           => "je příliš krátký/á/é (min. {{count}} znaků)",
           :wrong_length        => "nemá správnou délku (očekáváno {{count}} znaků)",
           :taken               => "již databáze obsahuje",
           :not_a_number        => "není číslo",

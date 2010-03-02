@@ -79,6 +79,8 @@ cz:
       taxonomy: 
         name: Název
       user: 
+        password_confirmation: Potvrzení hesla
+        password: Heslo
         email: Email
       variant: 
         depth: Hloubka
