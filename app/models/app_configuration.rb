@@ -2,7 +2,9 @@ class AppConfiguration < Configuration
 
   MAIL_AUTH = ['none', 'plain', 'login', 'cram_md5']
   SECURE_CONNECTION_TYPES = ['None','SSL','TLS']
-
+  
+  preference :czech_vat, :float, :default => 0.2
+  preference :price_with_vat, :boolean, :default => true
   preference :site_name, :string, :default => 'Spree Demo Site'
   preference :site_url, :string, :default => 'demo.spreecommerce.com'
   preference :enable_mail_delivery, :boolean, :default => false
