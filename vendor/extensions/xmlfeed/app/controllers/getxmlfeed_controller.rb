@@ -4,7 +4,7 @@ class GetxmlfeedController < ApplicationController
   #require gem "builder" for working
   def zbozicz
     @xml = Builder::XmlMarkup.new
-    @products = Product.find(:all)
+    @products = Product.find_all_by_deleted_at(nil)
     respond_to do |format|
       format.xml # index.xml.builder
     end
@@ -12,7 +12,7 @@ class GetxmlfeedController < ApplicationController
 
   def hledejceny
     @xml = Builder::XmlMarkup.new
-    @products = Product.find(:all)
+    @products = Product.find_all_by_deleted_at(nil)
     respond_to do |format|
       format.xml # index.xml.builder
     end
@@ -20,7 +20,7 @@ class GetxmlfeedController < ApplicationController
 
   def monitorcz
     @xml = Builder::XmlMarkup.new
-    @products = Product.find(:all)
+    @products = Product.find_all_by_deleted_at(nil)
     respond_to do |format|
       format.xml # index.xml.builder
     end
@@ -28,7 +28,7 @@ class GetxmlfeedController < ApplicationController
 
   def naakupcz
     @xml = Builder::XmlMarkup.new
-    @products = Product.find(:all)
+    @products = Product.find_all_by_deleted_at(nil)
     respond_to do |format|
       format.xml {render :action => :zbozicz }
     end
@@ -36,7 +36,7 @@ class GetxmlfeedController < ApplicationController
 
   def jyxocz
     @xml = Builder::XmlMarkup.new
-    @products = Product.find(:all)
+    @products = Product.find_all_by_deleted_at(nil)
     respond_to do |format|
       format.xml # index.xml.builder
     end
