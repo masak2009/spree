@@ -3,7 +3,14 @@ xml.offers do
   @products.each do |product|
     xml.offer do
       xml.name product.name
-      xml.description product.description
+      product_description = product.description
+      unless product.product_properties.empty?
+      for product_property in product.product_properties
+        product_description << "<h4>" + product_property.property.presentation + "</h4>"
+        product_description <<  product_property.value
+      end
+      end
+      xml.DESCRIPTION product_description
       if  Spree::Config[:price_with_vat]
         xml.price_vat product.price
       else
